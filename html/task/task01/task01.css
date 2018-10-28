@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+.spacea{
+}
+.spaceb{
+    width:  30vw;
+    height:  30vw;
+    background-color: orange;
+    float: left;
+    margin: 1%;
+    border-radius:10px
+}
