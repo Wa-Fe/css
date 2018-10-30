@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b6abdc7-8907-4f71-ada3-dc116780404e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task04-iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task04-lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task04.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task04.css" beforeDir="false" afterPath="$PROJECT_DIR$/task04.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task04.html" beforeDir="false" afterPath="$PROJECT_DIR$/task04.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,14 +36,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="921" />
-          <entry key="html" value="790" />
+          <entry key="css" value="1886" />
+          <entry key="html" value="1646" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="921" />
-          <entry key="HTML" value="790" />
+          <entry key="CSS" value="1886" />
+          <entry key="HTML" value="1646" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +55,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task04.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+                <state relative-caret-position="316">
+                  <caret line="22" column="82" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
+                  <folding>
+                    <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -72,8 +72,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task04.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1245">
-                  <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+                <state relative-caret-position="947">
+                  <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -171,12 +171,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540797380982</updated>
-      <workItem from="1540797382710" duration="18357000" />
+      <workItem from="1540797382710" duration="35885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18357000" />
+    <option name="totallyTimeSpent" value="35885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="36" width="1260" height="737" extended-state="0" />
@@ -212,15 +212,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/task04.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+        <state relative-caret-position="947">
+          <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task04.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="316">
+          <caret line="22" column="82" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

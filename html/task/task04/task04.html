@@ -8,42 +8,36 @@
 
 </head>
 <body>
-    <header >
-        <div class="top">
-            <p class="top1">注册</p>
-            <p class="top1">登陆</p>
-            <p class="top1">关闭</p>
+    <header>
+        <div class="head">
+            <p class="txt1">注册</p>
+            <p class="txt3">关闭</p>
+            <p class="txt2">登陆</p>
         </div>
     </header>
-
-    <div class="name">
+    <div class="your">
         <div class="iphone">
-        <img src="task04-iphone.png" height="41" width="27" class="photo"/>
+        <img src="task04-iphone.png" height="41" width="27"/>
         </div>
-        <div class="line"></div>
-        <div class="name">
-            <input type="text" placeholder="请输入用户名">
+        <div class="yourname">
+        <input type="text" onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');" maxlength="11" placeholder="请输入账号" style="border: 0;height: 45px;width: 400px;outline: none">
         </div>
     </div>
     <div class="pass">
         <div class="lock">
-
-            <img src="task04-lock.png" height="43" width="29" class="photo"/>
+            <img src="task04-lock.png" height="43" width="29"/>
         </div>
-        <div class="line-a"></div>
-        <div >
-            <input type="text" placeholder="请输入密码">
+        <div class="password">
+             <input type="password" maxlength="20" placeholder="请输入密码" style="border: 0;height: 45px;width: 400px;outline:none;">
         </div>
     </div>
-        <div class="login">
-         <p class="login-a">登&nbsp&nbsp陆</p>
-        </div>
-    <div class="password">
-        <p class="password-a">
-            忘记密码
-        </p>
+    <div class="login">
+        <p class="login-a">登陆</p>
     </div>
+    <div class="cancle">
+        <p class="txt5">忘记密码</p>
 
+    </div>
 
 
 

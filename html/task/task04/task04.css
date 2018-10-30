@@ -1,101 +1,114 @@
 body{
-    margin: 0;
     background-color: aliceblue;
+    margin: 0 ;
+    padding: 0;
 }
-.top{
-    background-color: #5EBFCC;
-    height: 62px;
+.head{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    line-height: 30px;
-
+    height: 60px;
+    background-color: #5EBFCC;
 }
-.top1{
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+.txt1{
+    float: left;
+    height: 60px;
+    margin: 0;
+    padding-left: 7px;
+    line-height: 60px;
+    color: white;
+}
+
+.txt3{
+    float:right;
+    height: 60px;
+    margin: 0;
+    padding-right: 7px;
+    line-height: 60px;
     color: white;
 
 }
-.name {
-    margin-top: 10px;
-    width: 100%;
-    height: 50px;
-    background-color: white;
-
-}
-input{
-    width: 70%;
-    height: 48px;
-    border: 0;
-    outline: none;
+.txt2{
     margin: 0;
-}
-.line{
-    float: left;
-    margin-top: 8px;
-    padding: 2px;
-    height: 30px;
-    width: 30px;
-    border-left: 1px solid #dddddd;
-
-}
-.iphone {
-    width: 70px;
-    float: left;
-    margin: 5px;
-    height: 40px;
-
-}
-.photo {
-    margin-left: 20px;
-    width: 20px;
-    height: 31px;
     text-align: center;
-    margin-top: 4px;
+    line-height: 60px;
+    color: white;
+}
+.your{
+    background-color: white;
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.iphone{
+    width: 65px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #dddddd;
+}
+.yourname{
+    height: 60px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
 }
 .pass{
-    margin-top: 10px;
-    width: 100%;
-    height: 50px;
     background-color: white;
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
 
 }
 .lock{
-    width: 70px;
-    float: left;
-    margin: 5px;
-    height: 40px;
-
-}
-.line-a{
-    float: left;
-    margin-top: 8px;
-    padding: 2px;
-    height: 30px;
-    width: 30px;
-    border-left: 1px solid #dddddd;
-}
-.login{
-    background-color: #5EBFCC;
-    height: 62px;
-    width: 100%;
-    text-align: center;
-    line-height: 62px;
-}
-.login-a{
-    color: white;
+    width: 65px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #dddddd;
 
 }
 .password{
-    margin-top: 10px;
+    height: 60px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
 }
-.password-a{
-    float: right;
-    color:  #5EBFCC;
-    border-bottom: 1px solid  #5EBFCC;
+
+.login{
+    width: 100%;
+    height: 60px;
+    background-color: #5EBFCC;
 }
+.login-a{
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+.txt5{
+    color: #5EBFCC;
+    float:right;
+    margin-right: 10px;
+    border-bottom: 1px solid #5EBFCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
