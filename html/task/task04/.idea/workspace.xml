@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a0f7d87-8540-40c0-be97-d8463a3de521" name="Default Changelist" comment="" />
+    <list default="true" id="6b6abdc7-8907-4f71-ada3-dc116780404e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task04-iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task04-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task03/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,11 +19,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1369473915">
+    <session id="1172960411">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
@@ -34,20 +40,47 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="533" />
-          <entry key="html" value="361" />
+          <entry key="css" value="921" />
+          <entry key="html" value="790" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="533" />
-          <entry key="HTML" value="361" />
+          <entry key="CSS" value="921" />
+          <entry key="HTML" value="790" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/task04.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="298">
+                  <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/task04.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1245">
+                  <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,8 +96,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/task03.css" />
-        <option value="$PROJECT_DIR$/task03.html" />
+        <option value="$PROJECT_DIR$/task04.css" />
+        <option value="$PROJECT_DIR$/task04.html" />
       </list>
     </option>
   </component>
@@ -75,39 +108,41 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="31" />
+    <option name="x" value="3" />
+    <option name="y" value="36" />
     <option name="width" value="1260" />
     <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="task03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task03" type="462c0819:PsiDirectoryNode" />
+              <item name="task04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -131,23 +166,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0a0f7d87-8540-40c0-be97-d8463a3de521" name="Default Changelist" comment="" />
-      <created>1540718139783</created>
+      <changelist id="6b6abdc7-8907-4f71-ada3-dc116780404e" name="Default Changelist" comment="" />
+      <created>1540797380982</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540718139783</updated>
-      <workItem from="1540718141083" duration="16959000" />
+      <updated>1540797380982</updated>
+      <workItem from="1540797382710" duration="18357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16959000" />
+    <option name="totallyTimeSpent" value="18357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1260" height="737" extended-state="0" />
+    <frame x="3" y="36" width="1260" height="737" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Gulp" side_tool="true" />
+      <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17191283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -172,17 +210,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task03.html">
+    <entry file="file://$PROJECT_DIR$/task04.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="1245">
+          <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task03.css">
+    <entry file="file://$PROJECT_DIR$/task04.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="298">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
         </state>
       </provider>
     </entry>
