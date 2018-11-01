@@ -194,6 +194,10 @@ body{
 .two{
     position:fixed; bottom:0;
     width: 100%;
+
+}
+.four{
+    min-height: 100px;
 }
 
 
