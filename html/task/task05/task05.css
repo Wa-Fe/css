@@ -78,12 +78,12 @@ body{
 }
 .qi{
     height: 60px;
-    width: 100%;
+    width: 98%;
     border-bottom: 1px solid #dddddd;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 2%;
 
 
 }
@@ -108,13 +108,13 @@ body{
     margin-left: 1vw;
 }
 .time{
-    width: 100%;
+    width: 98%;
     min-height: 60px;
     border-bottom: 1px solid #dddddd;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 .time-a{
     min-height: 25px;
