@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="841ecd3b-e8a7-47ed-bbd6-b65d9a442189" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../task05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task05/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="841ecd3b-e8a7-47ed-bbd6-b65d9a442189" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -72,8 +70,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task06.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="816">
-                  <caret line="173" column="17" lean-forward="true" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+                <state relative-caret-position="96">
+                  <caret line="125" column="17" lean-forward="true" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -168,12 +166,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541064213883</updated>
-      <workItem from="1541064215457" duration="20405000" />
+      <workItem from="1541064215457" duration="20814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20405000" />
+    <option name="totallyTimeSpent" value="20814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="27" width="1260" height="737" extended-state="0" />
@@ -222,8 +220,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task06.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="173" column="17" lean-forward="true" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+        <state relative-caret-position="96">
+          <caret line="125" column="17" lean-forward="true" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
         </state>
       </provider>
     </entry>
