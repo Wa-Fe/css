@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+}
+.heade{
+    position:fixed; top:0;
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: #4CB4C3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-3{
+    height: 60px;
+    width: 2em;
+}
+.top-one{
+    height: 50px;
+    width: 50vw;
+    background-color: #4296A3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+.top-1{
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    width: 50vw;
+    font-size: 20px;
+}
+.top-2{
+    height: 50px;
+    line-height: 50px;
+    background-color:  white;
+    width: 50vw;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #4CB4C3;
+}
+.top-location{
+    height: 60px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-location img{
+    height: 30px;
+    width: 28px;
+
+}
+.two{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+.two-1{
+    height: 50px;
+    flex-grow: 1;
+    color: #dddddd;
+    font-size: 25px;
+    text-align: center;
+    border-right: 1px solid #dddddd;
+
+}
+.two-1 select{
+    height: 50px;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    background: url("task06-two.png") no-repeat scroll right center transparent;
+    width: 30vw;
+    line-height:50px;
+    text-align:center;
+    text-align-last: center;
+    color: #dddddd;
+}
+.two-2{
+    height: 50px;
+    flex-grow: 1;
+    color: #dddddd;
+    font-size: 25px;
+    text-align: center;
+}
+.two-2 select{
+    height: 50px;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    background: url("task06-two.png") no-repeat scroll right center transparent;
+    width: 30vw;
+    line-height:50px;
+    text-align:center;
+    text-align-last: center;
+    color: #dddddd;
+}
+.footer{
+    height: 60px;
+    position:fixed; bottom:0;
+    width: 100%;
+}
+.foot{
+
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #F6F9FA;
+}
+.foot-home {
+    height: 60px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.foot-home img{
+    height: 25px;
+    width: 30px;
+    padding-top: 10px;
+}
+.foot-home span{
+    font-size: 5px;
+    color: #4CB4C3;
+    padding-top: 5px;
+}
+
+
+.foot-write{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.foot-me{
+    height: 60px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-write img{
+    height: 50px;
+    width: 50px;
+}
+.foot-me img{
+    height: 24px;
+    width: 25px;
+    padding-top: 10px;
+}
+.foot-me span{
+    font-size: 5px;
+    color: #979797;
+    padding-top: 5px;
+
+}
+.content{
+    position: fixed;
+    overflow: auto;
+    top: 120px;
+    bottom: 60px;
+    width: 100%;
+    background:transparent url("sprite.png") no-repeat scroll 0 0px;
+}
+.content-main{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+}
+
+.task06-riqi {
+    width: 24px;
+    height: 24px;
+    background-position: -0px -0px;
+}
+
+.task06-location {
+    width: 19px;
+    height: 23px;
+    background-position: -0px -24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
