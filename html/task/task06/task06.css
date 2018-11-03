@@ -4,6 +4,7 @@ body{
 .heade{
     position:fixed; top:0;
     width: 100%;
+    z-index: 999;
 }
 .top{
     width: 100%;
@@ -56,6 +57,69 @@ body{
     width: 28px;
 
 }
+.button{
+    display: flex;
+    margin: 0;
+    height: 59px;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    background-color: #FFFFFF;
+
+
+}
+.dropbtn {
+    background-color: #fff;
+    color: #979797;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.dropdown {
+    width: 33vw;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.line{
+    width: 1px;
+    height: 40px;
+    border-left: 1px solid #dddddd;
+}
+.dropdown img{
+    width: 10px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 2vw;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 33vw;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+.dropdown-content a {
+    color: black;
+    width: 30vw;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .two{
     height: 60px;
     display: flex;
@@ -63,45 +127,105 @@ body{
     text-align: center;
     border-bottom: 1px solid #dddddd;
 }
-.two-1{
-    height: 50px;
-    flex-grow: 1;
-    color: #dddddd;
-    font-size: 25px;
-    text-align: center;
-    border-right: 1px solid #dddddd;
+/* 这一部分是页面主体部分*/
+.content{
+    margin-top: 120px;
+    width: 100%;
 
 }
-.two-1 select{
-    height: 50px;
-    outline: none;
-    border: none;
-    -webkit-appearance: none;
-    background: url("task06-two.png") no-repeat scroll right center transparent;
-    width: 30vw;
-    line-height:50px;
-    text-align:center;
-    text-align-last: center;
-    color: #dddddd;
+.content-one{
+    height: 90px;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
 }
-.two-2{
-    height: 50px;
-    flex-grow: 1;
-    color: #dddddd;
-    font-size: 25px;
-    text-align: center;
+/*.content-main{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    background:transparent url("sprite.png") no-repeat scroll 0 0px;
 }
-.two-2 select{
-    height: 50px;
-    outline: none;
-    border: none;
-    -webkit-appearance: none;
-    background: url("task06-two.png") no-repeat scroll right center transparent;
-    width: 30vw;
-    line-height:50px;
-    text-align:center;
-    text-align-last: center;
-    color: #dddddd;
+
+.task06-riqi {
+    width: 24px;
+    height: 24px;
+    background-position: -0px -0px;
+}
+
+.task06-location {
+    width: 19px;
+    height: 23px;
+    background-position: -0px -24px;
+}
+*/
+.time{
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 10px;
+    width: 50vw;
+    color: #979797;
+}
+.time-img{
+    width: 24px;
+    height: 24px;
+    background: url('css_sprites.png') -10px -53px;
+}
+.time span{
+    margin-left: 2vw;
+}
+.time-content{
+    margin-left: 11vw;
+    height: 33px;
+    width: 50vw;
+    line-height: 33px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 20px;
+
+}
+.location{
+    display: flex;
+    margin-left: 5.5vw;
+    width: 70vw;
+    color: #979797;
+}
+.location-img{
+    width: 19px;
+    height: 23px;
+    background: url('css_sprites.png') -10px -10px;
+}
+.location span{
+    margin-left: 2vw;
+}
+.content-one-right{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    color: #DC143C;
+    align-items: center;
+    float: right;
+    margin-top: -55px;
+    margin-right: 10px;
+
+
+}
+
+/*.bg-task06_riqi {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -10px -53px;
+}
+
+
+.bg-task06_location {
+    width: 19px; height: 23px;
+    background: url('css_sprites.png') -10px -10px;
+}
+*/
+
+
+.content-one-right img{
+    height: 25px;
+    width: 15px;
 }
 .footer{
     height: 60px;
@@ -162,31 +286,7 @@ body{
     padding-top: 5px;
 
 }
-.content{
-    position: fixed;
-    overflow: auto;
-    top: 120px;
-    bottom: 60px;
-    width: 100%;
-    background:transparent url("sprite.png") no-repeat scroll 0 0px;
-}
-.content-main{
-    height: 80px;
-    width: 100%;
-    border-bottom: 1px solid #dddddd;
-}
 
-.task06-riqi {
-    width: 24px;
-    height: 24px;
-    background-position: -0px -0px;
-}
-
-.task06-location {
-    width: 19px;
-    height: 23px;
-    background-position: -0px -24px;
-}
 
 
 
