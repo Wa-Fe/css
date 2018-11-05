@@ -1,13 +1,10 @@
 body{
     margin: 0;
-    min-width: 320px;
-    max-width: 780px;
+
 }
 .heade{
     position:fixed; top:0;
     width: 100%;
-    min-width: 320px;
-    max-width: 780px;
     z-index: 999;
 }
 .top{
@@ -163,8 +160,8 @@ body{
 */
 .time{
     display: flex;
-    margin-left: 5vw;
-    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 30px;
     width: 50vw;
     color: #979797;
 }
@@ -174,10 +171,10 @@ body{
     background: url('css_sprites.png') -10px -53px;
 }
 .time span{
-    margin-left: 2vw;
+    margin-left: 10px;
 }
 .time-content{
-    margin-left: 11vw;
+    padding-left: 60px;
     height: 33px;
     width: 50vw;
     line-height: 33px;
@@ -187,9 +184,12 @@ body{
     font-size: 20px;
 
 }
+.time-content span{
+    width: 50vw;
+}
 .location{
     display: flex;
-    margin-left: 5.5vw;
+    margin-left: 30px;
     width: 70vw;
     color: #979797;
 }
@@ -199,7 +199,7 @@ body{
     background: url('css_sprites.png') -10px -10px;
 }
 .location span{
-    margin-left: 2vw;
+    margin-left: 10px;
 }
 .content-one-right{
     position: relative;
@@ -235,8 +235,7 @@ body{
     height: 60px;
     position:fixed; bottom:0;
     width: 100%;
-    min-width: 320px;
-    max-width: 780px;
+
 }
 .foot{
 
