@@ -17,7 +17,7 @@ body{
 }
 .top-3{
     height: 60px;
-    width: 2em;
+    width: 72px;
 }
 .top-one{
     height: 50px;
@@ -235,7 +235,7 @@ body{
     width: 15px;
 }
 .content-two{
-    height: 200px;
+    height: 100px;
 }
 .footer{
     height: 60px;
@@ -263,7 +263,7 @@ body{
     padding-top: 10px;
 }
 .foot-home span{
-    font-size: 5px;
+    font-size: 1rem;
     color: #4CB4C3;
     padding-top: 5px;
 }
@@ -292,7 +292,7 @@ body{
     padding-top: 10px;
 }
 .foot-me span{
-    font-size: 5px;
+    font-size: 1rem;
     color: #979797;
     padding-top: 5px;
 
