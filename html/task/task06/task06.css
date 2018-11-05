@@ -232,6 +232,9 @@ body{
     height: 25px;
     width: 15px;
 }
+.content-two{
+    height: 200px;
+}
 .footer{
     height: 60px;
     position:fixed; bottom:0;
