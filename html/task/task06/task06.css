@@ -1,9 +1,13 @@
 body{
     margin: 0;
+    min-width: 320px;
+    max-width: 780px;
 }
 .heade{
     position:fixed; top:0;
     width: 100%;
+    min-width: 320px;
+    max-width: 780px;
     z-index: 999;
 }
 .top{
@@ -100,7 +104,7 @@ body{
 .dropdown-content {
     display: none;
     position: absolute;
-    width: 33vw;
+    width: 100%;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -108,8 +112,8 @@ body{
 
 
 .dropdown-content a {
-    color: black;
-    width: 30vw;
+    color: #979797;
+    width: 100%;
     text-decoration: none;
     display: block;
 }
@@ -231,6 +235,8 @@ body{
     height: 60px;
     position:fixed; bottom:0;
     width: 100%;
+    min-width: 320px;
+    max-width: 780px;
 }
 .foot{
 

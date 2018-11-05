@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    min-width: 320px;
+    max-width: 780px;
+
+}
+.top{
+    height: 10vh;
+    width: 100%;
+    background-color: #27AFD8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    min-width: 320px;
+    max-width: 780px;
+
+}
+.top img{
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-one{
+    height: 10vh;
+}
+.center{
+    height: 60vh;
+    background-color: #27AFD8;
+}
+.center-image{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 25px;
+
+}
+.center-image img{
+    width: 200px;
+    height: 116px;
+    position: relative;
+}
+
+.center-image span{
+    position: absolute;
+    top: 150px
+}
+.center-txt{
+    width: 80%;
+    height: 15vh;
+    color: #F9A629;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+.center-txt p{
+    margin: 0;
+}
+.center-txt-one{
+    padding-left: 10%;
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: 2vh;
+}
+.center-txt-one p{
+    margin: 0;
+
+}
+.bottom-txt{
+    height: 15vh;
+    border-bottom: 1px solid #dddddd;
+}
+.txt-one{
+    height: 5vh;
+    display: flex;
+
+}
+.bottom-txt-one{
+    padding-left: 10%;
+    padding-top: 10px;
+    flex-grow: 1;
+}
+.bottom-txt-two{
+    flex-grow: 1;
+    padding-right: 10%;
+    color: #979797;
+    font-size: 5px;
+    padding-top: 15px;
+    text-align: right;
+}
+.txt-two{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 10px;
+    color: #B4B4B4;
+    margin-top: 10px;
+
+}
+.txt-two p{
+    margin: 0;
+}
+.foot{
+    height: 10vh;
+    background-color:rgba(137,216,235,0.5);
+    padding-top: 3vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-width: 320px;
+    max-width: 780px;
+
+
+}
+.foot-one{
+    height: 8vh;
+    background-color: #F0575B;
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    line-height: 8vh;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 19px;
+}
+.foot-two{
+    height: 8vh;
+    margin-right: 10%;
+    float: right;
+    width: 30%;
+    background-color: #F9A629;
+    line-height:8vh;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
