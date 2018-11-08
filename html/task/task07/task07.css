@@ -4,7 +4,7 @@ body{
 }
 .top{
     height: 50px;
-    background-color: #59C7E3;
+    background-color: #29bde0;
     display: flex;
     align-items: center;
 }
@@ -61,7 +61,7 @@ body{
     width: 100%;
     line-height: 12vh;
     text-align: center;
-    background-color: #59C7E3;
+    background-color: #69d1e9;
     color: #ffffff;
 }
 .text-home{
@@ -69,7 +69,7 @@ body{
     width: 100%;
     line-height: 12vh;
     text-align: center;
-    background-color: #59C7E3;
+    background-color: #69d1e9;
     color: #ffffff;
 }
 .text-home a{
@@ -112,7 +112,7 @@ body{
     margin: 2px;
 }
 .line-one:hover{
-    background-color: #59C7E3;
+    background-color: #69d1e9;
 }
 .line-two {
     width: 10px;

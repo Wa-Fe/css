@@ -1,11 +1,11 @@
 body{
     margin: 0;
     width: 100%;
-    background-color: #27AFD8;
+    background-color: #29bde0;
 }
 .head{
     height: 50px;
-    background-color: #27AFD8;
+    background-color: #29bde0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +64,7 @@ body{
 
 .main-center{
     height: 30px;
-    background-color: #27AFD8;
+    background-color: #29bde0;
     padding-left: 6vw;
     color: #FFFFFF;
     font-size: 0.5rem;
