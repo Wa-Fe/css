@@ -1,7 +1,6 @@
 body{
     margin: 0;
-    min-width: 320px;
-    max-width: 780px;
+
 
 }
 .top{
@@ -12,12 +11,10 @@ body{
     align-items: center;
     justify-content: space-between;
     color: #ffffff;
-    border-bottom: 1px solid #ffffff;
     position: fixed;
     top: 0;
     z-index: 999;
-    min-width: 320px;
-    max-width: 780px;
+
 
 }
 .top img{
@@ -28,13 +25,15 @@ body{
 }
 .main-one{
     height: 10vh;
+    border-bottom: 1px solid #27AFD8;
+
 }
 .center{
     height: 60vh;
     background-color: #27AFD8;
 }
 .center-image{
-    height: 150px;
+    height: 24vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +49,7 @@ body{
 
 .center-image span{
     position: absolute;
-    top: 150px
+    top: 24.5vh;
 }
 .center-txt{
     width: 80%;
@@ -113,8 +112,7 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-    min-width: 320px;
-    max-width: 780px;
+
 
 
 }

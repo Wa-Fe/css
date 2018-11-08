@@ -40,6 +40,7 @@ body{
     margin-top: 2vh;
     margin-left: 5%;
     border: 1px solid #C0C0C0;
+    position: relative;
 }
 .bottom-top{
     height: 9vh;
@@ -62,15 +63,28 @@ body{
     background-color: #59C7E3;
     color: #ffffff;
 }
+.text-home{
+    height: 12vh;
+    width: 100%;
+    line-height: 12vh;
+    text-align: center;
+    background-color: #59C7E3;
+    color: #ffffff;
+}
+.text-home a{
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+}
 .text-one p{
     margin: 0;
- }
+}
 .text-two{
     color: #656565;
     text-align: center;
     padding: 2vh;
     font-size: 10px;
-  }
+}
 .text-two p{
     margin: 0;
 }
@@ -78,8 +92,9 @@ body{
     height: 28px;
     width: 14px;
     position:absolute;
-    left: 90%;
-    top: 59%;
+    left: 50%;
+    top: 47%;
+    margin-left: 39vw;
 }
 .line{
     display: flex;
