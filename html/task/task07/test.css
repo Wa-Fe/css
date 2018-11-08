@@ -71,10 +71,20 @@ body{
     background-color: #59C7E3;
     color: #ffffff;
 }
+.bottom-center a{
+    height: 12vh;
+    width: 100%;
+    line-height: 12vh;
+    text-align: center;
+    background-color: #59C7E3;
+    color: #ffffff;
+
+}
 .text-home a{
     margin: 0;
     color: #fff;
     text-decoration: none;
+    display: block;
 }
 .text-one p{
     margin: 0;

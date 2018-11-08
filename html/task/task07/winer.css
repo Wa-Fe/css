@@ -22,6 +22,7 @@ body{
     height: 25px;
     padding-left: 10px;
     padding-right: 10px;
+    cursor: pointer;
 }
 .main-one{
     height: 10vh;
@@ -38,18 +39,18 @@ body{
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 1.2rem;
 
 }
 .center-image img{
-    width: 200px;
-    height: 116px;
+    width: 30vh;
+    height: 22vh;
     position: relative;
 }
 
 .center-image span{
     position: absolute;
-    top: 24.5vh;
+    top: 26.5vh;
 }
 .center-txt{
     width: 80%;
@@ -57,7 +58,7 @@ body{
     color: #F9A629;
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 20px;
+    font-size: 1rem;
 }
 .center-txt p{
     margin: 0;
@@ -65,7 +66,7 @@ body{
 .center-txt-one{
     padding-left: 10%;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 0.9rem;
     margin-top: 2vh;
 }
 .center-txt-one p{
@@ -75,6 +76,9 @@ body{
 .bottom-txt{
     height: 15vh;
     border-bottom: 1px solid #dddddd;
+}
+.bottom-txt-three{
+    height: 15vh;
 }
 .txt-one{
     height: 5vh;
@@ -97,7 +101,7 @@ body{
 .txt-two{
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 10px;
+    font-size: 1rem;
     color: #B4B4B4;
     margin-top: 10px;
 
@@ -127,6 +131,12 @@ body{
     border-radius: 10px;
     color: #ffffff;
     font-size: 19px;
+
+}
+.foot-one a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
 }
 .foot-two{
     height: 8vh;

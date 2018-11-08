@@ -12,6 +12,8 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
+    border-bottom: 1px solid #dddddd;
 }
 
 .head-left{
@@ -20,6 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .head-left img{
     height: 25px;
@@ -31,6 +34,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .head-right img{
     height: 25px;
@@ -175,11 +179,14 @@ audio{   /* 播放器样式*/
 .foot{
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 82vw;
     background-color: #27AFD8;
     height: 6rem;
     line-height: 6rem;
     text-align: center;
+    display: block;
+    margin-left: 9vw;
+    border-top: 1px solid #dddddd;
 }
 .foot a{
     background-color: #F8A528;
@@ -235,8 +242,8 @@ audio{   /* 播放器样式*/
     display: none;
 }
 .bottom-image img{
-    width: 4vw;
-    height: 4vw;
+    width: 4.6vw;
+    height: 4.6vw;
 }
 .box{
     width: 30vw;
