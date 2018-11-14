@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.head {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.top{
+    padding-right: 10px;
+
+}
+.head-top{
+    margin-right: 15px;
+}
+.txt-two{
+    color: #29b078;
+}
+.navbar{
+    background-color: #29b078;
+    padding: 0 1rem;
+
+}
+a{
+    color: #ffffff;
+}
+.navbar-toggler-icon{
+    width: auto;
+    height: auto;
+}
+.navbar-toggler:hover{
+    background-color: #ffffff;
+}
+.navbar-toggler:hover {
+    outline: none;
+}
+.navbar-toggler{
+    padding: 0.25rem;
+}
+
+
+
+.nav-link{
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 10vh;
+    line-height: 10vh;
+}
+.nav-link:hover{
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.tj-txt-one{
+    color: #29b078;
+}
+.tj-txt-two{
+    padding-top: 2rem;
+
+}
+.tj-box{
+    padding-top: 1rem;
+
+
+}
+.tj-txt-three{
+    width: 15px;
+    height: 15px;
+    border: 1px solid orange;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px
+}
+.box-one{
+    padding-top: 1rem;
+}
+.top-line{
+    border-top: 1px solid #dddddd;
+    padding-left: 0;
+}
+.top-line-two{
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding-left: 0;
+    padding-right: 0;
+}
+.box-one a{
+    color: #29b078;
+    text-decoration: none;
+}
+
+.box-one:hover .tj-txt-three{
+        background-color: orange;
+}
+.box-one:hover .tj-txt-four{
+    color: orange;
+}
+.box-two{
+}
+.box-three span{
+    color: #dddddd;
+}
+.box-three{
+    color: #dddddd;
+    padding-top: 2rem;
+
+}
+.box-four{
+    color: #dddddd;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    border-top: 1px solid #dddddd;
+}
+.box-five{
+    border: 1px solid #dddddd;
+    padding: 0;
+    background-color: #ffffff;
+}
+.box-six{
+    flex: 0;
+    width: 35px;
+}
+.foot{
+    background-color: #26a26f;
+    padding-top: 2rem;
+    margin-top: 5rem;
+}
+.foot-txt{
+    color: #ffffff;
+}
+
+.foot-txt:hover{
+    border-bottom: 1px solid #ffffff;
+
+}
+.foot-one{
+    padding-top: 4.5rem;
+
+}
+.foot-two{
+    padding-top: 1.5rem;
+
+}
+.foot-three{
+    padding-top: 1.5rem;
+
+}
+.foot-txt-two{
+    border-top: 1px solid #ffffff;
+}
+
+.foot-txt-two span{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

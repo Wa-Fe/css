@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.head {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.top{
+    padding-right: 10px;
+
+}
+.head-top{
+    margin-right: 15px;
+}
+.txt-two{
+    color: #29b078;
+}
+.navbar{
+    background-color: #29b078;
+    padding: 0 1rem;
+
+}
+.nav-item a{
+    color: #ffffff;
+}
+.navbar-toggler-icon{
+    width: auto;
+    height: auto;
+}
+.navbar-toggler:hover{
+    background-color: #ffffff;
+}
+.navbar-toggler:hover {
+    outline: none;
+}
+.navbar-toggler{
+    padding: 0.25rem;
+}
+
+
+
+.nav-link{
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 10vh;
+    line-height: 10vh;
+}
+.nav-link:hover{
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.job-txt-one{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #dddddd;
+}
+.job-txt-two{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #dddddd;
+}
+.job-txt-two a{
+    color: #000000;
+}
+.job-txt-three{
+    margin-left: 2rem;
+}
+.job-txt-three:hover{
+    color: #ffffff;
+    background-color: #29b078;
+    text-decoration: none;
+}
+.job-txt-four{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #dddddd;
+}
+.job-box-one{
+    padding-top: 2rem;
+}
+.job-box-five{
+    margin-left: 0;
+    margin-right: 0;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 150px 50px 50px 50px 50px 50px 50px 50px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    position: relative;
+}
+.job-bj{
+    height: 500px;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.job-bj span{
+
+}
+.job-bj:hover{
+    opacity: 0.5;
+}
+
+.item1{
+    grid-column: 1/5;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.item2{
+    grid-column: 5/11;
+    padding-top: 9px;
+    padding-left: 10px;
+
+}
+.item3{
+    grid-column: 1/6;
+    border-right: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    line-height: 50px;
+    padding-left: 8px;
+
+}
+.item4{
+    grid-column: 6/11;
+    border-top: 1px solid #dddddd;
+    line-height: 50px;
+    padding-left: 8px;
+
+}
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    line-height: 150px;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+
+
+}
+
+.item6{
+    grid-column: 5/11;
+    border-top: 1px solid #dddddd;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+
+
+}
+.item7{
+    grid-column: 1/11;
+    border-top: 1px solid #dddddd;
+    line-height: 50px;
+    padding-left: 8px;
+
+}
+
+.box-txt{
+ font-size: 0.7rem;
+
+}
+.job-box {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+.job-box .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 50px 20px;
+    background-color: #000000;
+    opacity: 0;
+}
+.job-box:hover .overlay{
+    opacity: 0.8;
+}
+
+
+
+.job-box h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    overflow: hidden;
+    padding: 0.5em 0;
+    background-color: transparent;
+}
+
+
+.job-box:hover h2:after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.job-box a, .job-box p {
+    color: #FFF;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+}
+
+.job-box:hover a, .job-box:hover p {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+.foot{
+    background-color: #26a26f;
+    padding-top: 2rem;
+    margin-top: 5rem;
+}
+.foot-txt{
+    color: #ffffff;
+}
+
+.foot-txt:hover{
+    border-bottom: 1px solid #ffffff;
+
+}
+.foot-one{
+    padding-top: 4.5rem;
+
+}
+.foot-two{
+    padding-top: 1.5rem;
+
+}
+.foot-three{
+    padding-top: 1.5rem;
+
+}
+.foot-txt-two{
+    border-top: 1px solid #ffffff;
+}
+
+.foot-txt-two span{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
