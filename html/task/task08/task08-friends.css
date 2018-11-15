@@ -93,14 +93,20 @@ a{
     border: 1px solid orange;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
-    border-radius: 50px
+    border-radius: 50px;
+}
+
+.tj-txt-four{
+    padding-left: 5px;
 }
 .box-one{
     padding-top: 1rem;
 }
 .top-line{
-    border-top: 1px solid #dddddd;
     padding-left: 0;
+}
+.tj-box-one{
+    border-top: 1px solid #dddddd;
 }
 .top-line-two{
     border: 1px solid #dddddd;
