@@ -3,10 +3,35 @@ body{
     background-color: #fafafa;
 }
 
+
 .head {
     padding-top: 3px;
     padding-bottom: 3px;
+    background-color: #fafafa;
 }
+.head-txt{
+    color: #29b078;
+    display: none;
+}
+@media screen and (max-width: 780px){
+    .txt-two{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 780px){
+    .top{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 780px){
+    .head-txt{
+        display: block;
+    }
+
+}
+
 .top{
     padding-right: 10px;
 
@@ -232,6 +257,7 @@ body{
 .foot{
     background-color: #26a26f;
     padding-top: 2rem;
+    margin-top: 4rem;
 }
 .foot-txt{
     color: #ffffff;
@@ -255,7 +281,7 @@ body{
 }
 .foot-txt-two{
     border-top: 1px solid #ffffff;
-    margin-top: 5px;
+    margin-top: 1rem;
 }
 
 .foot-txt-two span{

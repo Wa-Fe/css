@@ -7,6 +7,38 @@ body{
     padding-bottom: 3px;
     background-color: #fafafa;
 }
+.head-txt{
+    color: #29b078;
+    display: none;
+}
+@media screen and (max-width: 780px){
+    .txt-two{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 780px){
+    .top{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 780px){
+    .head-txt{
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
 .top{
     padding-right: 10px;
 
@@ -73,6 +105,12 @@ a{
 .main-two{
     border-left: 1px dashed #dddddd;
 }
+@media screen and (max-width: 780px){
+    .main-two{
+        border: 0;
+    }
+
+}
 
 
 .main-three{
@@ -109,6 +147,9 @@ h5{
 }
 .main-txt{
     padding-top: 1rem;
+}
+.photo-noe{
+    margin-top: 2rem;
 }
 .photo-noe img {
     height: 5rem;
@@ -178,6 +219,7 @@ h5{
 .foot{
     background-color: #26a26f;
     padding-top: 2rem;
+    margin-top: 3rem;
 }
 .foot-txt{
     color: #ffffff;
@@ -201,7 +243,7 @@ h5{
 }
 .foot-txt-two{
     border-top: 1px solid #ffffff;
-    margin-top: 5px;
+    margin-top: 1rem;
 }
 
 .foot-txt-two span{

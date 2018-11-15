@@ -250,19 +250,40 @@ body{
 
 */
 
-.box span{
-    background-color: orange;
+
+.head {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.top{
+    padding-right: 10px;
+
+}
+.head-top{
+    margin-right: 15px;
 }
 
-.box{
-    border: 5px solid #29b078;
-    margin: 5rem;
+@media screen and (max-width: 900px){
+    .txt-two{
+        display: none;
+    }
+
 }
+@media screen and (max-width: 900px){
+    .top{
+        display: none;
+    }
 
+}
+.txt-three{
+    display: none;
+}
+@media screen and (max-width: 900px){
+    .txt-three{
+        display: block;
+    }
 
-
-
-
+}
 
 
 
