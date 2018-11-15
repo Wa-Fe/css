@@ -121,10 +121,12 @@ a{
     flex: 0;
     width: 35px;
 }
+
+
 .foot{
     background-color: #26a26f;
     padding-top: 2rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .foot-txt{
     color: #ffffff;
@@ -135,7 +137,7 @@ a{
 
 }
 .foot-one{
-    padding-top: 4.5rem;
+    padding-top: 1.6rem;
 
 }
 .foot-two{
@@ -148,15 +150,16 @@ a{
 }
 .foot-txt-two{
     border-top: 1px solid #ffffff;
+    margin-top: 5px;
 }
 
 .foot-txt-two span{
     color: #ffffff;
 }
-
-
-
-
+.txt{
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 

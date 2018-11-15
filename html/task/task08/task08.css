@@ -5,6 +5,7 @@ body{
 .head {
     padding-top: 3px;
     padding-bottom: 3px;
+    background-color: #fafafa;
 }
 .top{
     padding-right: 10px;
@@ -20,6 +21,9 @@ body{
     background-color: #29b078;
     padding: 0 1rem;
 
+}
+.home-box{
+    margin-top: 10px;
 }
 a{
     color: #ffffff;
@@ -52,15 +56,15 @@ a{
 }
 .carousel-indicators li{
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 50px;
     margin: 2px;
     background-color: rgba(255,255,255,0.1);
     border: 1px solid #ffffff;
 }
 .txt-one{
-    color: #dddddd;
+    color: #b9b9b9;
 }
 
 .main-one{
@@ -97,7 +101,11 @@ h5{
 
 .main-txt span{
     padding-left: 1rem;
+    color: #b9b9b9;
 
+}
+.card-text{
+    color: #b9b9b9;
 }
 .main-txt{
     padding-top: 1rem;
@@ -112,8 +120,8 @@ h5{
 }
 
 .line-one {
-    width: 10px;
-    height: 10px;
+    width: 0.8rem;
+    height: 0.8rem;
     background: #ECECEC;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -149,16 +157,18 @@ h5{
 .bottom-line{
     padding-top: 1rem;
     padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .bottom-txt{
-    color: #dddddd;
+    color: #b9b9b9;
 }
 .bottom-txt li{
     border-bottom: 1px solid #ffffff;
 
 }
-.bottom-txt li:hover{
+.bottom-txt span:hover{
     border-bottom: 1px solid #29b078;
 }
 .line-two{
@@ -178,7 +188,7 @@ h5{
 
 }
 .foot-one{
-    padding-top: 4.5rem;
+    padding-top: 1.6rem;
 
 }
 .foot-two{
@@ -191,6 +201,7 @@ h5{
 }
 .foot-txt-two{
     border-top: 1px solid #ffffff;
+    margin-top: 5px;
 }
 
 .foot-txt-two span{

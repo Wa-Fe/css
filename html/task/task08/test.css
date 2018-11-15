@@ -72,6 +72,12 @@ body{
     background-color: #29b078;
     text-decoration: none;
 }
+.carousel-inner{
+    height: 30vw;
+}
+.carousel-inner img{
+    max-height: 30vw;
+}
 .job-txt-four{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -228,7 +234,6 @@ body{
 }
 
 
-*/
 
 .box1{
     height: 200px;
@@ -243,6 +248,16 @@ body{
 
 }
 
+*/
+
+.box span{
+    background-color: orange;
+}
+
+.box{
+    border: 5px solid #29b078;
+    margin: 5rem;
+}
 
 
 
