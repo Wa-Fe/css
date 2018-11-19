@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACF,MAAM,EAAE,CAAC;;AAGX,KAAK;EACH,gBAAgB,EAFN,OAAO",
+"sources": ["task11.scss"],
+"names": [],
+"file": "task11.css"
+}
