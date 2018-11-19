@@ -1,14 +1,343 @@
 body{
     margin: 0;
+
 }
-.input-group span{
+.head{
+    background-color: #1d7ad9;
+    height: 6vh;
+}
+
+.head-box-one{
+    height: 6vh;
+    line-height: 6vh;
+}
+.head-txt-one{
+    height: 6vh;
+
+}
+.head-txt-two{
+
+    line-height: 6.1vh;
+    border-left: 1px solid #ffffff;
+
+}
+@media screen and (max-width: 760px){
+    .head-box-one{
+        display: none;
+    }
+}
+.head-txt-three{
+
+    line-height: 6vh;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+.head-txt-two a:hover{
+    color: #000000;
+    text-decoration: none;
+    border: 20px solid #ffffff;
     background-color: #ffffff;
-    border: 0;
 }
-.box{
-     border: 5px solid #1d7ad9;
- }
-.box span{
-    background-color: orange;
+.head-txt-two a{
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.head-txt-three a{
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.head-txt-three a:hover{
+    color: #000000;
+    text-decoration: none;
+    border: 20px solid #ffffff;
+    background-color: #ffffff;
+
+}
+.navbar{
+    background-color: #f9f9f9;
+
+}
+.home-box{
+    margin-top: 10px;
+}
+a{
+    color: #ffffff;
+}
+.navbar-toggler-icon{
+    width: auto;
+    height: auto;
+}
+.navbar-toggler:hover{
+    background-color: #ffffff;
+}
+.navbar-toggler:hover {
+    outline: none;
+}
+.navbar-toggler{
+    padding: 0.25rem;
+}
+.nav-item{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+
+}
+.head-box{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.nav-link{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: #666 0px 0px 1px;
+
+}
+.nav-link:hover{
+    color: #ffffff;
+    background-color: #1d7ad9;
+
+
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10rem;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.line-one{
+    width: 10.1rem;
+    height: 5px;
+    background-color: #cccccc;
+    border-radius: 50px;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+.line p{
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    color: #999999;
+
+}
+.line:hover .line-one{
+    background-color: #ff7f02;
+}
+.line:hover .circle{
+    background-color: #ff7f02;
+}
+.line:hover p{
+    color: #ff7f02;
+}
+
+
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background: #cccccc;
+    border-radius: 50%;
+    line-height: 20px;
+    color: #ffffff;
+    margin-left: 4.5rem;
+    margin-top: -13px;
+}
+
+.txt-one{
+    display: flex;
     align-items: center;
+}
+.txt-one span{
+    margin-left: 1rem;
+}
+.txt-two{
+    color: #1d7ad9;
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #e8e8e8;
+
+}
+
+.txt-three{
+
+    padding: 2rem 0 2rem 0;
+    background-color: #fbfcff;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.txt-two span{
+    margin-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.select-bg select{
+    -webkit-appearance: none;
+    padding:0.5rem 3rem 0.5rem 1rem;
+    border-radius: 0;
+    background-image: url("./image/task10-bottom.png");
+    background-repeat: no-repeat;
+    background-position: 6rem;
+    background-color: #ffffff;
+    color: #999999;
+    outline: none;
+}
+.select-one{
+    -webkit-appearance: none;
+    border-radius: 0;
+    background-image: url("./image/task10-bottom.png");
+    background-repeat: no-repeat;
+    background-position: 6rem;
+    background-color: #ffffff;
+    padding:0.5rem 3rem 0.5rem 1rem;
+    outline: none;
+    color: #999999;
+
+
+
+}
+
+.txt-four{
+    color: #1d7ad9;
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid  #e8e8e8;
+
+}
+.txt-four span{
+    margin-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.txt-five{
+    padding: 2rem 0 2rem 0;
+    background-color: #fbfcff;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.txt-six{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.txt-six span{
+    background-color: #e15053;
+    color: #ffffff;
+    padding: 1rem 4rem;
+    border-radius: 10px;
+}
+.box-two{
+    margin-top: 5rem;
+    background-color: #f9f9f9;
+    padding-top: 2rem;
+}
+.box-three{
+    background-color: #1d7ad9;
+    color: #ffffff;
+}
+.box-four span{
+    color: #999999;
+
+}
+.box-four{
+    padding-bottom: 3rem;
+}
+.foot-txt span:hover{
+    color: #1d7ad9;
+}
+
+.main-box-one{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fbfcff;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid #e8e8e8;
+}
+.main-box-two{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fbfcff;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid  #e8e8e8;
+
+}
+label{
+    color: #999999;
+}
+
+
+.main-box-three {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fbfcff;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid  #e8e8e8;
+}
+.main-box-five{
+    margin-right: 0;
+    margin-left: 0;
+    border-bottom: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid  #e8e8e8;
+}
+.foot-txt span{
+
+}
+.foot-txt-one p{
+    color: #999999;
+}
+.main-box-six{
+    margin-right: 5px;
+}
+input[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #1d7ad9;
+    text-indent: .15em;
+    line-height: 1;
+}
+input[type="radio"]:checked + label::before {
+    border: 6px solid #1d7ad9;
+
+}
+input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.main-box-seven{
+
+}
+.select-bg{
+
 }
