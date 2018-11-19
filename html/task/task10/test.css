@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+.input-group span{
+    background-color: #ffffff;
+    border: 0;
+}
+.box{
+     border: 5px solid #1d7ad9;
+ }
+.box span{
+    background-color: orange;
+    align-items: center;
+}
