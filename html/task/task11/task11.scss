@@ -1,10 +1,169 @@
-body{
-  margin: 0;
-}
+
 $head-color:#1ba2ea;
+$d:flex;
+$c:center;
+@mixin max{
+  max-width: 780px;
+  min-width: 320px;
+}
+@mixin dis{
+  display: flex;
+  align-items: center;
+
+}
+html{
+  height: 100%;
+}
+body{
+  text-align: center;
+  margin: 0 auto;
+  @include max;
+ height: 100%;
+
+}
+.main-color{
+  background-color: #f0f4f7;
+  padding-top: 1rem;
+  height: 100%;
+}
 .head{
   background-color: $head-color;
+  height: 8vh;
+  color: #ffffff;
+ @include dis;
+  @include max;
   img{
+  width: 20px;
+    height: 20px;
+    padding-left: 0.5rem;
+  }
+span{
+  margin-left: 2rem;
+}
+}
+.box{
+  @include dis;
+  height: 8vh;
+
+  background-color: #ffffff;
+  @include max;
+  .box-one{
+    height: 8vh;
+    width: 50px;
+    display: $d;
+    align-items: $c;
+    justify-content: center;
+  }
+  input{
+    height: 6vh;
+    -webkit-appearance: none;
+    outline: none;
+    border: 0;
+    border-left: 1px solid #dddddd;
+    padding-left: 0.5rem;
+    width: 70%;
+  }
+
+}
+
+.box-three{
+  @extend .box;
+  @include max;
+  margin-top: 2px;
+
+  .box-two{
+    @extend .box-one;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+.box-four{
+
+  text-align: center;
+  .txt-box{
+    background-color: $head-color;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: {
+      left: 0.5rem;
+      right: 0.5rem;
+    };
+    padding: {
+      top: 0.2rem;
+      bottom: 0.2rem;
+    };
+
+  }
+
+  border-radius: 10px;
+  @include max;
+  margin: {
+    top: 1rem;
+  };
+}
+.txt{
+  color: #9b9c9c;
+  @include max;
+  .txt-one{
+    float: left;
+   padding-left: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .txt-two{
+    float: right;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
 
   }
 }
+.box-five{
+  margin-top: 9rem;
+  color:  #9b9c9c;
+  @include dis;
+  justify-content: center;
+  @include max;
+  .line-left{
+    width: 5rem;
+    height: 2px;
+    border-top: 1px solid #dddddd;
+  }
+
+}
+
+.box-six{
+  display: $d;
+  justify-content: center;
+  @include max;
+  .wechat {
+    text-align: center;
+    padding: {
+      top: 2rem;
+      left: 0.5rem;
+      right: 0.5rem;
+
+    };
+  }
+  .webo{
+    @extend .wechat
+  }
+  .qq{
+    @extend .wechat
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
