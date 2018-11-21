@@ -1,0 +1,55 @@
+body{
+  margin: 0 auto;
+  max-width: 780px;
+  min-width: 320px;
+}
+@mixin head{
+  position:fixed; top:0;
+  width: 100%;
+}
+@mixin bottom-line{
+  border-bottom: 1px solid #dddddd;
+}
+@mixin left-line{
+  border-left: 1px solid #dddddd;
+}
+@mixin write-color{
+  color: #ffffff;
+}
+@mixin ra-10{
+  border-radius: 10px;
+}
+@mixin bc-write{
+  background-color: #ffffff;
+}
+@mixin foot{
+  position:fixed;
+ bottom: 0;
+  width: 100%;
+}
+@mixin max{
+  max-width: 780px;
+  min-width: 320px;
+
+}
+@mixin d{
+  display: flex;
+}
+@mixin d-a{
+  display: flex;
+  align-items: center;
+}
+@mixin d-a-jc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin  d-a-js{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin  d-jc{
+  display: flex;
+  justify-content: center;
+}

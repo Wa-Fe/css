@@ -1,0 +1,195 @@
+body {
+  margin: 0 auto;
+  max-width: 780px;
+  min-width: 320px;
+  height: 100%; }
+
+.one {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 780px;
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5fc0cd;
+  color: #ffffff;
+  height: 8vh; }
+  .one .top-one {
+    width: 15px;
+    height: 6vh;
+    margin-right: 3vw; }
+  .one img {
+    margin-left: 3vw; }
+
+.three-one {
+  height: 8vh;
+  width: 100%; }
+
+.three {
+  background-color: #F6F9FA;
+  width: 100%;
+  max-width: 780px;
+  min-width: 320px; }
+  .three .bj {
+    background-image: url("./image/task12-photo.png");
+    background-size: 100% 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    max-width: 780px;
+    min-width: 320px; }
+    .three .bj img {
+      margin-left: 3vw;
+      position: relative; }
+    .three .bj .name-a {
+      display: flex;
+      flex-direction: column; }
+      .three .bj .name-a .name {
+        color: white;
+        margin-left: 3vw;
+        width: 50vw;
+        position: relative;
+        top: -20px; }
+        .three .bj .name-a .name .name-xu {
+          margin: 0; }
+      .three .bj .name-a .location {
+        display: flex;
+        flex-direction: row;
+        color: white; }
+
+.ji {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+  max-width: 780px;
+  min-width: 320px; }
+  .ji .ji-a {
+    margin-left: 3vw;
+    border-left: 3px solid #4CB4C3; }
+    .ji .ji-a .ji-b {
+      margin: 0; }
+
+.qi-one, .qi, .qi .qi-a, .qi-c, .time {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.qi {
+  max-width: 780px;
+  min-width: 320px;
+  height: 60px;
+  border-bottom: 1px solid #dddddd; }
+  .qi .qi-a {
+    width: 60px;
+    height: 24px;
+    border-right: 1px solid #dddddd;
+    margin-left: 3vw; }
+
+.qi-c {
+  width: 70px;
+  height: 24px;
+  margin-left: 1vw; }
+
+.time {
+  min-height: 60px;
+  max-width: 780px;
+  min-width: 320px; }
+
+.time-one {
+  border-bottom: 1px solid #dddddd;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  padding-right: 5px;
+  margin-left: 2%; }
+
+.time-a {
+  min-height: 25px;
+  min-width: 80px;
+  margin-left: 3vw;
+  border-right: 1px solid #dddddd;
+  color: #dddddd; }
+
+.time-b {
+  height: 25px;
+  width: 100px;
+  margin-left: 3vw; }
+
+.txt, .txt1, .txt3 {
+  margin: 0; }
+
+.txt1 {
+  color: red; }
+
+.time-c {
+  min-height: 60px;
+  padding-right: 3vw;
+  padding-left: 3vw; }
+
+.txt3 {
+  display: flex;
+  align-items: center;
+  min-height: 60px; }
+
+.di {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 80px;
+  width: 100%; }
+
+.message {
+  height: 56px;
+  width: 49%;
+  flex-grow: 1;
+  text-align: center;
+  border: 2px solid #4CB4C3;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5vw;
+  background-color: white;
+  padding: 0; }
+
+.message-a {
+  color: #4CB4C3; }
+
+.di-a {
+  width: 10%; }
+
+.iphone {
+  height: 60px;
+  width: 51%;
+  flex-grow: 1;
+  text-align: center;
+  background-color: #4CB4C3;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5vw;
+  padding: 0; }
+
+.iphone-a {
+  color: white; }
+
+.two {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  max-width: 780px;
+  min-width: 320px;
+  background-color: #F6F9FA; }
+
+.time-two {
+  height: 8rem; }
+
+/*# sourceMappingURL=task12.css.map */
