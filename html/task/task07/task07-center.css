@@ -231,9 +231,6 @@ audio{   /* 播放器样式*/
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #71A288;
-    color: #ffffff;
-    font-size: 0.5rem;
 }
 .bottom-image{
     position: absolute;
