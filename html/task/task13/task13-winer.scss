@@ -4,7 +4,8 @@
   width: 100%;
   background-color: #29bde0;
   @include d-a-j-s;
-  @include bottom-line;@include max;
+  @include bottom-line;
+  @include max;
   color: #ffffff;
   position: fixed;
   top: 0;
@@ -63,9 +64,13 @@
 .bottom-txt-three{
   height: 15vh;
 }
+
 .bottom-txt{
   @extend .bottom-txt-three;
-  @include bottom-line
+  @include bottom-line;
+}
+.bg{
+  background-color: #f0f4f7;
 }
 .txt-one{
   height: 5vh;
