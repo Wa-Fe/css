@@ -1,0 +1,83 @@
+@import "a";
+.head {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #fafafa;
+}
+.head-txt{
+  color: #29b078;
+  display: none;
+}
+@media screen and (max-width: 780px){
+  .txt-two{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 780px){
+  .top{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 780px){
+  .head-txt{
+    display: block;
+  }
+}
+.top{
+  padding-right: 10px;
+
+}
+.head-top{
+  margin-right: 15px;
+}
+.txt-two{
+  color: #29b078;
+}
+.navbar{
+  background-color: #29b078;
+}
+.nav-logo{
+  width: auto;
+}
+.nav-item{
+  height: 10vh;
+  line-height: 10vh;
+  padding: {
+    left: 1rem;
+    right: 1rem;
+  };
+}
+.nav-item:hover{
+  border-bottom: 2px solid #ffffff;
+}
+.nav-txt{
+  @include d-a-c;
+}
+@media screen and (max-width: 780px){
+ ul li{
+   display: none;
+ }
+  .nav-txt{
+    position: relative;
+    min-height: 40px;
+  }
+  .nav-item{
+    position: absolute;
+  }
+  .nav-txt-one{
+    top: 0;
+    left: 0;
+    height: 8vh;
+    cursor: pointer;
+    background: url("./image/menu.png") no-repeat right;
+  }
+  .navbar{
+    padding: {
+      top: 0.5rem;
+      bottom: 0.5rem;
+    };
+  }
+}
+

@@ -157,14 +157,14 @@ audio {
   line-height: 20px; }
 
 .image-one {
-  margin-left: 7px;
+  margin-left: 6px;
   display: none;
   margin-top: 10px; }
 
 .image-one img {
   width: 15px;
   height: 15px;
-  padding-left: 2px; }
+  padding-left: 2.5px; }
 
 .box:hover .image-one {
   display: block; }
