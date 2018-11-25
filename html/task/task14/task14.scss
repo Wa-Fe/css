@@ -55,29 +55,33 @@
 .nav-txt{
   @include d-a-c;
 }
+input[type=checkbox], label {
+  display: none;
+}
 @media screen and (max-width: 780px){
- ul li{
-   display: none;
- }
-  .nav-txt{
-    position: relative;
-    min-height: 40px;
-  }
-  .nav-item{
-    position: absolute;
-  }
-  .nav-txt-one{
-    top: 0;
-    left: 0;
-    height: 8vh;
-    cursor: pointer;
-    background: url("./image/menu.png") no-repeat right;
-  }
+
   .navbar{
     padding: {
       top: 0.5rem;
       bottom: 0.5rem;
     };
+  }
+  label{
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+  }
+  .nav-txt{
+    display: none;
+    position: absolute;
+    right: 0;
+    z-index: 99;
+  }
+  input[type=checkbox] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    background: none;
   }
 }
 
