@@ -65,6 +65,11 @@ a{
 }
 
 
+.img-fluid {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
 
 .align-items-start {
   -ms-flex-align: start !important;

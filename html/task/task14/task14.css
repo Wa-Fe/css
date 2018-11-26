@@ -58,6 +58,11 @@ a {
   -ms-flex-pack: justify !important;
   justify-content: space-between !important; }
 
+.img-fluid {
+  display: inline-block;
+  max-width: 100%;
+  height: auto; }
+
 .align-items-start {
   -ms-flex-align: start !important;
   align-items: flex-start !important; }
@@ -618,16 +623,43 @@ input[type=checkbox], label {
     float: right;
     cursor: pointer; }
 
+  .nav-txt-one {
+    display: inline-block !important;
+    width: 100%;
+    padding-left: 0; }
+
   .nav-txt {
     display: none;
     position: absolute;
     right: 0;
-    z-index: 99; }
+    z-index: 99;
+    top: 95px;
+    background-color: #29b078;
+    width: 100%;
+    padding-bottom: 1rem; }
+
+  .nav-item {
+    text-align: center; }
 
   input[type=checkbox] {
     position: absolute;
     top: -9999px;
     left: -9999px;
-    background: none; } }
+    background: none; }
+
+  input[type=checkbox]:checked + .nav-txt {
+    display: inline-block; } }
+.loop-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 600px; }
+
+.loop-images-container {
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 300%;
+  height: 100%; }
 
 /*# sourceMappingURL=task14.css.map */
