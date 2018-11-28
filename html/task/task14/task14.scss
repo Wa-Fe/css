@@ -1,4 +1,6 @@
 @import "a";
+@import "lunbo";
+@import "foot";
 .head {
   padding-top: 3px;
   padding-bottom: 3px;
@@ -59,14 +61,23 @@ input[type=checkbox], label {
   display: none;
 }
 @media screen and (max-width: 780px){
+    .bbb{
+      padding-right: 0;
+    }
+  .box1{
+    margin-right: 5px;
+  }
 
+  .aaa{
+    flex-wrap: wrap;
+  }
   .navbar{
     padding: {
       top: 0.5rem;
       bottom: 0.5rem;
     };
   }
-  label{
+  .toggle-menu{
     display: inline-block;
     float: right;
     cursor: pointer;
@@ -78,7 +89,6 @@ input[type=checkbox], label {
  }
   .nav-txt{
     display: none;
-   position: absolute;
     right: 0;
     z-index: 99;
     top: 95px;
@@ -101,32 +111,148 @@ input[type=checkbox], label {
   }
 
 }
-.loop-wrap{
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  height: 600px;
+
+@media screen and (min-width: 200px) {
+  .wrap-one{
+    display: block;
+  }
+  
 }
-.loop-images-container{
-  position: relative;
-  left: 0;
-  right: 0;
-  width: 300%;
-  height: 100%;
+.txt-one{
+  color: #b9b9b9;
+  padding: {
+    top: 15px;
+  };
+}
+
+.main-one{
+  height: 3vh;
+}
+.main-two{
+  border-left: 1px dashed #dddddd;
+}
+@media screen and (max-width: 780px){
+  .main-two{
+    border: 0;
+  }
+
+}
+.main-three{
+  height: 10vh;
+}
+.circle {
+  min-width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #29b078;
+  line-height: 50px;
+  background-color: #ffffff;
+  display: block;
+  font-style: initial;
+  border: 1px solid #dddddd;
+  border-radius: 50px;   //让边框变成圆形
+  z-index: 1000;
+  box-shadow: rgba(0,0,0,0.3) 2px 3px 2px;  //让边框带有阴影
+}
+body{
+  background-color: #fafafa;
+}
+h5{
+  padding: 5rem;
+}
+
+.main-txt span{
+  padding-left: 1rem;
+  color: #b9b9b9;
+
+}
+.card{
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+.card-text{
+  color: #b9b9b9;
+}
+.main-txt{
+  padding-top: 1rem;
+}
+.photo-noe{
+  margin-top: 2rem;
+}
+.photo-noe img {
+  height: 5rem;
+  width: 5rem;
+  margin-top: 3rem;
+}
+.line{
+  padding-top: 2rem;
+}
+
+.line-one {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #ECECEC;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin: 2px;
+}
+.line-one:hover{
+  background-color:  #29b078;
+}
+
+.box1{
+  height: 200px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.box1:hover{
+  box-shadow: #666 0 0 10px;
+
 }
 
 
+.main-bottom{
+  background-color: #ffffff;
+  margin-top: 5rem;
+}
+.bottom-line{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
 
+.bottom-txt{
+  color: #b9b9b9;
+}
+.bottom-txt li{
+  border-bottom: 1px solid #ffffff;
 
-
-
-
-
-
-
-
-
-
+}
+.bottom-txt span:hover{
+  border-bottom: 1px solid #29b078;
+}
+.line-two{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+ul li{
+  color: #dddddd;
+}
+.home-box{
+  padding: {
+    top: 15px;
+    bottom: 15px;
+  };
+}
+h6{
+  color: #000000;
+}
 
 
 
