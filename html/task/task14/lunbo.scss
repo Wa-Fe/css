@@ -1,102 +1,140 @@
-input{
-  display: none;
-}
-ul{
+input {
+  display: none; }
+
+ul {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
-#box{
-  width: 100%;
+body{
+  margin: 0;
+}
+.box {
+  width: 100vw;
   padding-bottom: 32%;
-
-
   /*超出部分隐藏*/
   overflow: hidden;
   position: relative;
-  text-align: center;
-}
-.list{
+  text-align: center; }
+
+.list {
+  list-style: none;
   /*让ul横着排放超出box*/
-  width: 300vw;
+  width: 300%;
   /*利用position：absolute不占位*/
   position: absolute;
   /*过渡执行时间为1s*/
-
 }
-.list li{
-  float:left;
+.list li {
+  float: left;
   width: 100vw;
 }
-.wrap-one{
+
+.wrap-one {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 1px solid white;
+  border: 2px solid white;
   position: absolute;
   bottom: 10%;
-  z-index: 2;
-}
+  z-index: 2; }
 
 /*设置每个圆圈的位置*/
-label:nth-of-type(1){
-  left:45%;
-}
-label:nth-of-type(2){
-  left:50%;
-}
-label:nth-of-type(3){
-  left:55%;
-}
-.img-fluid{
-  max-width: 100%;
-}
+label:nth-of-type(1) {
+  left: 45%; }
 
-input:checked+label{
-  background:#ffffff;
-}
+label:nth-of-type(2) {
+  left: 50%; }
+
+label:nth-of-type(3) {
+  left: 55%; }
+
+.img-fluid {
+  max-width: 100%; }
+
+input:checked + label {
+  background: #ffffff; }
+
 /*选中移动ul*/
-input:nth-of-type(1):checked~ul{
-  left:0;
-}
-input:nth-of-type(2):checked~ul{
-  left:-100vw;
-}
-input:nth-of-type(3):checked~ul{
-  left:-200vw;
-}
-.carousel-control {
-  color: #fff;
-  cursor: pointer;
-  display: none;
-  font-size: 40px;
-  height: 40px;
-  line-height: 35px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  cursor: pointer;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-align: center;
-  width: 40px;
-  z-index: 10;
-}
-.carousel-control.prev {
-  left: 2%;
-}
+input:nth-of-type(1):checked ~ ul {
+  left: 0; }
 
-.carousel-control.next {
-  right: 2%;
-}
+input:nth-of-type(2):checked ~ ul {
+  left: -100%; }
+
+input:nth-of-type(3):checked ~ ul {
+  left: -200%; }
+
+
+
+
 #one:checked ~ .control-1,
 #two:checked ~ .control-2,
 #three:checked ~ .control-3 {
+  display: block; }
+.bottom-one{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  width: 1rem;
+  height: 1rem;
+  border-top: 0.5rem solid #fff;
+  border-right: 0.5rem solid #fff;
+  transform: rotate(-135deg);
+  cursor: pointer;
+  display: none;
+}
+#one:checked ~ .bottom-two{
   display: block;
+  cursor: pointer;
+  transform: rotate(40deg);
+  left: 86%;
+}
+#one:checked ~ .bottom-three{
+  display: block;
+  cursor: pointer;
+}
+#two:checked ~ .bottom-one{
+  display: block;
+  cursor: pointer;
+}
+#two:checked ~ .bottom-three{
+  display: block;
+  cursor: pointer;
+  transform: rotate(40deg);
+  left: 86%;
+}
+#three:checked ~ .bottom-two{
+  display: block;
+  cursor: pointer;
+}
+#three:checked ~ .bottom-one{
+  display: block;
+  cursor: pointer;
+  transform: rotate(40deg);
+  left: 86%;
+}
+.bottom-two{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  width: 1rem;
+  height: 1rem;
+  border-top: 0.5rem solid #fff;
+  border-right: 0.5rem solid #fff;
+  transform: rotate(-135deg);
+  cursor: pointer;
+  display: none;
 }
 
-
-
-
-
-
+.bottom-three{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  width: 1rem;
+  height: 1rem;
+  border-top: 0.5rem solid #fff;
+  border-right: 0.5rem solid #fff;
+  transform: rotate(-135deg);
+  cursor: pointer;
+  display: none;
+}

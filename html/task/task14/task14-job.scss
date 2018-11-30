@@ -1,6 +1,9 @@
 @import "a";
 @import "header";
 @import "foot";
+.nav-txt-one li{
+  list-style: none;
+}
 .job-txt-one{
   padding-top: 2rem;
   padding-bottom: 2rem;
