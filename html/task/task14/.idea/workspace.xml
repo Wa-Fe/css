@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1d5ab7d-a31e-4ca4-8ae0-bf162e5eae44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.scss" beforeDir="false" afterPath="$PROJECT_DIR$/a.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lunbo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lunbo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14-job.css" beforeDir="false" afterPath="$PROJECT_DIR$/task14-job.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14-job.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/task14-job.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14-job.html" beforeDir="false" afterPath="$PROJECT_DIR$/task14-job.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14-job.scss" beforeDir="false" afterPath="$PROJECT_DIR$/task14-job.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14-tj.css" beforeDir="false" afterPath="$PROJECT_DIR$/task14-tj.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14-tj.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/task14-tj.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14-tj.html" beforeDir="false" afterPath="$PROJECT_DIR$/task14-tj.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14-tj.scss" beforeDir="false" afterPath="$PROJECT_DIR$/task14-tj.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task14.css" beforeDir="false" afterPath="$PROJECT_DIR$/task14.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task14.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/task14.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task14.html" beforeDir="false" afterPath="$PROJECT_DIR$/task14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14.scss" beforeDir="false" afterPath="$PROJECT_DIR$/task14.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,7 +36,7 @@
           <entry key="html" value="44" />
           <entry key="js" value="2" />
           <entry key="png" value="2" />
-          <entry key="scss" value="42" />
+          <entry key="scss" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -59,21 +45,21 @@
           <entry key="HTML" value="44" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="2" />
-          <entry key="SCSS" value="42" />
+          <entry key="SCSS" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1777" />
           <entry key="html" value="1718" />
-          <entry key="scss" value="1600" />
+          <entry key="scss" value="1641" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1777" />
           <entry key="HTML" value="1718" />
-          <entry key="SCSS" value="1600" />
+          <entry key="SCSS" value="1641" />
         </counts>
       </usages-collector>
     </session>
@@ -83,17 +69,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lunbo.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="861">
+              <caret line="81" column="3" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task14.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -107,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task14.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="115">
+              <caret line="59" column="52" lean-forward="true" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
               <folding>
                 <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -180,13 +184,13 @@
         <option value="$PROJECT_DIR$/task14-tj.scss" />
         <option value="$PROJECT_DIR$/test.scss" />
         <option value="$PROJECT_DIR$/task14-job.scss" />
-        <option value="$PROJECT_DIR$/lunbo.scss" />
-        <option value="$PROJECT_DIR$/task14.scss" />
-        <option value="$PROJECT_DIR$/task14.html" />
         <option value="$PROJECT_DIR$/task14-tj.html" />
         <option value="$PROJECT_DIR$/test.css" />
-        <option value="$PROJECT_DIR$/header.scss" />
         <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/header.scss" />
+        <option value="$PROJECT_DIR$/task14.scss" />
+        <option value="$PROJECT_DIR$/task14.html" />
+        <option value="$PROJECT_DIR$/lunbo.scss" />
       </list>
     </option>
   </component>
@@ -311,12 +315,12 @@
       <workItem from="1543280403122" duration="10529000" />
       <workItem from="1543305009665" duration="27719000" />
       <workItem from="1543480469349" duration="441000" />
-      <workItem from="1543492273179" duration="3459000" />
+      <workItem from="1543492273179" duration="5212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79375000" />
+    <option name="totallyTimeSpent" value="81128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,7 +335,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -494,20 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task14.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lunbo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="128" column="14" lean-forward="true" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task14-tj.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -537,27 +527,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task14.html">
+    <entry file="file://$PROJECT_DIR$/task14.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="89">
+          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="861">
+          <caret line="81" column="3" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunbo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="59" column="52" lean-forward="true" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+          <folding>
+            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
