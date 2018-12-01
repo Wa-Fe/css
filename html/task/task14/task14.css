@@ -1862,5 +1862,7 @@ h6 {
 @media screen and (max-width: 1200px) {
   .bottom-txt {
     padding-left: 20%; } }
+.card-deck {
+  margin-right: 0; }
 
 /*# sourceMappingURL=task14.css.map */
