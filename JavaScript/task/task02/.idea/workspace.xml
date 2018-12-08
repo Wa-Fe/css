@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="300631d3-f5bb-4904-bda1-ed47f6f25fe4" name="Default Changelist" comment="" />
+    <list default="true" id="300631d3-f5bb-4904-bda1-ed47f6f25fe4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/task07/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/.idea/task07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/audio/test.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/image/task07-about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/image/task07-audio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/image/task07-home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/image/task07-login-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/image/task07-login-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/image/task07-login-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/image/task07-top-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/image/task07-top-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/image/task07-winer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/task07-center.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/task07-center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/task07-winer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/task07.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/task07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/task07.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task07/winer.css" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,28 +52,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
+          <entry key="css" value="1" />
+          <entry key="html" value="5" />
           <entry key="js" value="6" />
           <entry key="scss" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="5" />
           <entry key="JavaScript" value="6" />
           <entry key="SCSS" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="667" />
+          <entry key="css" value="1" />
+          <entry key="html" value="674" />
           <entry key="js" value="2341" />
           <entry key="scss" value="961" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="667" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="674" />
           <entry key="JavaScript" value="2341" />
           <entry key="SCSS" value="961" />
         </counts>
@@ -58,19 +87,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task07/task07.html">
+        <entry file="file://$PROJECT_DIR$/task07.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="396">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task07/task07.js">
+        <entry file="file://$PROJECT_DIR$/task07.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="368">
+              <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -100,6 +129,8 @@
         <option value="$PROJECT_DIR$/task02.html" />
         <option value="$PROJECT_DIR$/task07/task07.html" />
         <option value="$PROJECT_DIR$/task07/task07.js" />
+        <option value="$PROJECT_DIR$/task07.html" />
+        <option value="$PROJECT_DIR$/task07.css" />
       </list>
     </option>
   </component>
@@ -170,12 +201,12 @@
       <workItem from="1544018522750" duration="1829000" />
       <workItem from="1544060256455" duration="9179000" />
       <workItem from="1544096964307" duration="6867000" />
-      <workItem from="1544236057469" duration="1315000" />
+      <workItem from="1544236057469" duration="1647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41012000" />
+    <option name="totallyTimeSpent" value="41344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -273,17 +304,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task07/task07.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task07/task07.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task07/task07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task07.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
         </state>
       </provider>
     </entry>
