@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="task02.css">
+
+
+
+</head>
+<body>
+    <header>
+        <div class="head">
+            <img src="image/cancle.png">
+        </div>
+    </header>
+    <main>
+        <div class="main-txt-one">
+            <p>玩家配比</p>
+        </div>
+        <div class="main-box-one">
+            <div class="main-txt-two">
+               <div class="main-two-span">
+                   <img src="image/boy.png">
+                   &nbsp;杀手<span id="ss">1</span>&nbsp;人
+               </div>
+                <div class="main-two-span">
+                    <img src="image/boy.png">
+                    &nbsp; 平民<span id="pm">3</span>&nbsp;人
+                </div>
+            </div>
+        </div>
+        <div class="main-box-two"></div>
+        <div class="main-box-three">
+            <div class="main-txt-three">
+                <div class="three-one">
+                    <span><strong>请输入玩家数量</strong></span>
+                </div>
+                <div class="three-two">
+                    <form>
+                        <input type="text" class="player-num" id="player" value="4" max="18" min="4" onblur="on_change() " maxlength="2" onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');">
+
+                    </form>
+                </div>
+                <div class="three-three">
+                    <span>玩家数量为4～18</span>
+                </div>
+
+            </div>
+            <div class="main-button">
+                <button class="btn-sub" id="btnSub" onclick="less()"></button><!--减value的按钮-->
+                <input type="range" class="slider-block" id="slider" max="18" min="4" step="1" value="4" onchange="moveChange()">
+                <!--onchange是当对象发生变化时执行的函数-->
+                <!--这里的value="4"的意思是浏览器进入时候滑块在最小值，也就是最右侧的地方，否则默认在中间-->
+                <button class="btn-add" id="btnAdd" onclick="plus()"></button><!--加value的按钮-->
+            </div>
+        </div>
+
+        <div class="foot-txt">
+            <input type="button" value="去发牌">
+        </div>
+    </main>
+
+    <script type="text/javascript" src="task02.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+@import "a";
+body{
+  background-color: #f0f0f0;
+}
+.head{
+  background-color: #29bde0;
+  height: 10vh;
+  @include d-a-c;
+  padding-left: 2rem;
+}
+main{
+  padding: 0.5rem;
+}
+.main-txt-one{
+  background-color: #ffffff;
+  line-height: 10vh;
+  text-align: center;
+  //box-shadow: 10px 10px 5px #888888;
+}
+.main-box-one{
+  height: 30vh;
+  background-color: #ffffff;
+  margin-top: 0.5rem;
+}
+.main-txt-two{
+  display: flex;
+
+}
+.main-two-span{
+  text-align: center;
+  flex-grow: 1;
+  @include d-a-j-c;
+  margin-top: 0.5rem;
+  span{
+    padding-left: 0.5rem;
+  }
+
+}
+.main-box-two{
+  height: 15vh;
+  background-color: #ffffff;
+  margin-top: 0.5rem;
+}
+.main-box-three{
+  @extend .main-box-two;
+}
+.main-txt-three{
+  @include d-a-j-c;
+}
+.three-one{
+  @extend .three-two;
+  span{
+    font-size: 1.3rem;
+  }
+}
+.three-two{
+  padding: 0.5rem;
+}
+.three-three{
+  @extend .three-two;
+  span{
+    font-size: 0.7rem;
+    color: #fab442;
+  }
+}
+
+.three-two input[type="text"]{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  border: 0;
+  color: #fab442;
+  background-color: #f0f0f0;
+  outline: none;
+}
+.foot-txt input[type=button]{
+  background-color: #fab442;
+  width: 100%;
+  line-height: 6vh;
+  color: #ffffff;
+  border: 0;
+  margin-top: 0.5rem;
+}
+.main-button{
+  @include d-a-j-c;
+}
+
+
+.btn-sub{
+  background: url("image/minus.png") no-repeat;
+  background-position: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  outline: none;
+}
+.btn-add{
+  background: url("image/add.png") no-repeat;
+   background-position: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  outline: none;
+}
+
+input[type=range]{
+  outline: none;
+  -webkit-appearance: none;/*清除系统默认样式*/
+  width:70% !important;
+  background: -webkit-linear-gradient(#fbc577, #fbc577) no-repeat, #fee6c0;
+  background-size: 0% 18%;/*设置左右宽度比例*/
+  height: 3px;/*横条的高度*/
+}
+/*拖动块的样式*/
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 30px;
+  width: 50px;
+  border: 1px solid #fab442;
+  background: url("./image/rage.png") no-repeat #ffffff;
+  background-position: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

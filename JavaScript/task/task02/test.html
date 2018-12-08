@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="test.js"></script>
+</head>
+<body>
+<!--<div class="js-2-1section3">-->
+    <!--<div class="js-2-1section3-div1">-->
+        <!--<span class="js-2-1section3-div1-span1">玩家人数</span>-->
+        <!--<input type="text" class="player-num" id="player" value="6" max="18" min="6" onblur="on_change()">-->
+        <!--&lt;!&ndash;onblur是当对象失去焦点的时候执行的函数&ndash;&gt;-->
+        <!--<span class="js-2-1section3-div1-span1">人</span>-->
+    <!--</div>&lt;!&ndash;上面这部分是玩家人数方框的html&ndash;&gt;-->
+    <!--<div class="js-2-1section3-div2">-->
+        <!--<button class="btn-sub" id="btnSub" onclick="less()"></button>&lt;!&ndash;减value的按钮&ndash;&gt;-->
+        <!--<input type="range" class="slider-block" id="slider" max="18" min="6" step="1" value="6" onchange="moveChange()">-->
+        <!--&lt;!&ndash;onchange是当对象发生变化时执行的函数&ndash;&gt;-->
+        <!--&lt;!&ndash;这里的value="4"的意思是浏览器进入时候滑块在最小值，也就是最右侧的地方，否则默认在中间&ndash;&gt;-->
+        <!--<button class="btn-add" id="btnAdd" onclick="plus()"></button>&lt;!&ndash;加value的按钮&ndash;&gt;-->
+    <!--</div>-->
+<!--</div>-->
+<!--<script>-->
+    <!--var oPlayerNum = document.getElementById("player");//玩家总人数-->
+    <!--var osliderBlock = document.getElementById("slider");//滑块的值-->
+    <!--function on_change() {-->
+        <!--if (oPlayerNum.value >= 6 && oPlayerNum.value <= 18) {//设置方框里面玩家人数范围-->
+            <!--osliderBlock.value=oPlayerNum.value ;//将玩家总人数赋值给滑块的值，实现动态变化-->
+        <!--} else {-->
+            <!--alert("请输入正确的人数6~18");-->
+            <!--oPlayerNum.value=6;-->
+            <!--osliderBlock.value=6;-->
+            <!--//人数超出范围的话，弹出警告框，并且将方框和滑块的值重置为6-->
+        <!--}-->
+    <!--}-->
+    <!--function moveChange() {// 滑块的值改变，运行这个函数-->
+        <!--oPlayerNum.value=osliderBlock.value;-->
+        <!--//滑块的值改变的话，滑块的值赋值给方框，实现动态变化-->
+    <!--}-->
+    <!--function less() {-->
+        <!--oPlayerNum.value&#45;&#45;;-->
+        <!--//减的按钮，减掉玩家总人数的值-->
+        <!--if (oPlayerNum.value<6){-->
+            <!--alert("人太少了，再找几个小伙伴来吧");-->
+            <!--oPlayerNum.value=6;-->
+            <!--//人数超出范围的话，弹出警告框，并且将方框和滑块的值重置为6-->
+        <!--}-->
+        <!--else {-->
+            <!--osliderBlock.value=oPlayerNum.value;// 将玩家人数赋值给滑轮的值-->
+        <!--}-->
+    <!--}-->
+    <!--function plus() {-->
+        <!--oPlayerNum.value++;-->
+        <!--//加的按钮，减掉玩家总人数的值，上面的值已经相互关联了，所以方框的值改变，滑块的值也会改变-->
+        <!--if (oPlayerNum.value>18){-->
+            <!--alert("人太多了，可以分一批人再开一局");-->
+            <!--oPlayerNum.value=18;-->
+            <!--//人数超出范围的话，弹出警告框，并且将方框和滑块的值重置为18-->
+        <!--}-->
+        <!--else {-->
+            <!--osliderBlock.value=oPlayerNum.value;// 将玩家人数赋值给滑轮的值-->
+        <!--}-->
+    <!--}-->
+<!--</script>-->
+
+</body>
+</html>

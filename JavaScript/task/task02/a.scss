@@ -1,0 +1,75 @@
+body {
+  margin: 0 auto;
+  max-width: 780px;
+  min-width: 320px;
+  height: 100%;
+
+}
+html{
+  height: 100%;
+  background-color: #ffffff;
+}
+input[type="button"]{
+  outline: none;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+@mixin head{
+  position:fixed; top:0;
+  width: 100%;
+}
+@mixin border-1{
+  border: 1px solid #dddddd;
+}
+@mixin bottom-line{
+  border-bottom: 1px solid #dddddd;
+}
+@mixin left-line{
+  border-left: 1px solid #dddddd;
+}
+@mixin write-color{
+  color: #ffffff;
+}
+@mixin ra-10{
+  border-radius: 10px;
+}
+@mixin bc-write{
+  background-color: #ffffff;
+}
+@mixin foot{
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+@mixin max{
+  max-width: 780px;
+  min-width: 320px;
+}
+@mixin d{
+  display: flex;
+}
+@mixin d-a-c{
+  display: flex;
+  align-items: center;
+}
+@mixin d-a-j-c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin  d-a-j-s{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin  d-j-c{
+  display: flex;
+  justify-content: center;
+}
+@mixin d-j-s{
+  display: flex;
+  justify-content: space-between;
+}
