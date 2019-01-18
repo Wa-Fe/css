@@ -143,6 +143,32 @@ $(document).ready(function () {
 
         sessionStorage.setItem('test',JSON.stringify(conte));
         sessionStorage.setItem('all2',JSON.stringify(all1));
+        var a=0;
+        var b=0;
+        for (var c=0;c<all4.length;c++){
+            if (all4[c] === '杀手'){
+                a++
+            }else if (all4[c] === '平民'){
+                b++
+            }
+
+        }
+
+
+        switch (true) {
+            case a > b:
+                alert('杀手获胜');
+                window.location='end.html';//结束页面
+                break;
+            case a === 0:
+                window.location='end.html';
+                alert('平民获胜');
+                break;
+            default:
+                window.location='task04.html';
+                sessionStorage.removeItem('state');
+
+        }
 
 
 
