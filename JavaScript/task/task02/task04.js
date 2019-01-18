@@ -235,11 +235,7 @@ $(document).ready(function () {
         var a=confirm('确定要查看法官日志吗？游戏将会重新开始');
         if (a === true){
             window.location='faguan.html';
-            sessionStorage.removeItem('all2');
-            sessionStorage.removeItem('number');
-            sessionStorage.removeItem('state');
-            sessionStorage.removeItem('number');
-            sessionStorage.removeItem('day');
+            sessionStorage.clear();
         } else {
 
         }

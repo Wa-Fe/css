@@ -14,12 +14,14 @@ function information() {
     var all4=sessionStorage.getItem("all4");
     console.log(all4);
     var reg = new RegExp("平民", "g");
+    //平民人数
     var test= all4.match(reg).length;
     console.log(test);
     if (test === undefined){
         var test=0;
         console.log(test);
     }
+    //死亡人数
     var olreg=new RegExp('死亡','g');
     var txt1=all4.match(olreg).length;
     console.log(txt1);
@@ -30,7 +32,7 @@ function information() {
     //
     //添加div
     var txt=`
-    <p>剩余人数${test}人</p>
+    <p>剩余人数${txt-txt1-test+test}人</p>
     <p>杀手${txt-txt1-test}人</p>
     <p>平民${test}人</p>
     `
@@ -79,16 +81,7 @@ function skip() {
         window.location='task02.html';
 
         localStorage.removeItem('key');
-        ;sessionStorage.removeItem('day');
-        sessionStorage.removeItem('all1');
-        sessionStorage.removeItem('all2');
-        sessionStorage.removeItem('all3');
-        sessionStorage.removeItem('all4');
-        sessionStorage.removeItem('clickcount');
-        sessionStorage.removeItem('number');
-        sessionStorage.removeItem('state');
-        sessionStorage.removeItem('test');
-        sessionStorage.removeItem('death');
+        sessionStorage.clear();
 
 
     } else {
