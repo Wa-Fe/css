@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300631d3-f5bb-4904-bda1-ed47f6f25fe4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/end.html" beforeDir="false" afterPath="$PROJECT_DIR$/end.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/end.js" beforeDir="false" afterPath="$PROJECT_DIR$/end.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shenfen.html" beforeDir="false" afterPath="$PROJECT_DIR$/shenfen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shenfen.js" beforeDir="false" afterPath="$PROJECT_DIR$/shenfen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task04-kill.js" beforeDir="false" afterPath="$PROJECT_DIR$/task04-kill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task04.html" beforeDir="false" afterPath="$PROJECT_DIR$/task04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task04.js" beforeDir="false" afterPath="$PROJECT_DIR$/task04.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vote.js" beforeDir="false" afterPath="$PROJECT_DIR$/vote.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +26,7 @@
         <counts>
           <entry key="project.closed" value="42" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -32,14 +39,14 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="19" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="43" />
-          <entry key="js" value="44" />
+          <entry key="html" value="44" />
+          <entry key="js" value="47" />
           <entry key="png" value="2" />
           <entry key="scss" value="29" />
         </counts>
@@ -47,25 +54,25 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="43" />
+          <entry key="HTML" value="44" />
           <entry key="Image" value="2" />
-          <entry key="JavaScript" value="44" />
+          <entry key="JavaScript" value="47" />
           <entry key="SCSS" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="2458" />
-          <entry key="js" value="27851" />
+          <entry key="html" value="2535" />
+          <entry key="js" value="27968" />
           <entry key="scss" value="3188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="2496" />
-          <entry key="JavaScript" value="27813" />
+          <entry key="HTML" value="2573" />
+          <entry key="JavaScript" value="27930" />
           <entry key="SCSS" value="3188" />
         </counts>
       </usages-collector>
@@ -79,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task04.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="237" column="35" lean-forward="true" selection-start-line="237" selection-start-column="35" selection-end-line="237" selection-end-column="35" />
+            <state relative-caret-position="511">
+              <caret line="256" column="38" lean-forward="true" selection-start-line="256" selection-start-column="38" selection-end-line="256" selection-end-column="38" />
               <folding>
                 <element signature="e#14#46#0" />
               </folding>
@@ -91,39 +98,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task04.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="345">
+              <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/end.html">
+        <entry file="file://$PROJECT_DIR$/end.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="143">
+              <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shenfen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="98" column="3" lean-forward="true" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shenfen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/end.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task04-kill.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+            <state relative-caret-position="1461">
+              <caret line="175" column="22" lean-forward="true" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -132,9 +144,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vote.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="113" column="56" lean-forward="true" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vote.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
+            <state relative-caret-position="-14">
               <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -147,17 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/end.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1541">
+            <state relative-caret-position="603">
               <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vote.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
             </state>
           </provider>
         </entry>
@@ -165,17 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task07.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="46" column="77" lean-forward="true" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+            <state relative-caret-position="92">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -205,7 +208,6 @@
         <option value="$PROJECT_DIR$/jiaose.html" />
         <option value="$PROJECT_DIR$/jiaose.scss" />
         <option value="$PROJECT_DIR$/shenfen.scss" />
-        <option value="$PROJECT_DIR$/shenfen.html" />
         <option value="$PROJECT_DIR$/task02.scss" />
         <option value="$PROJECT_DIR$/task02.js" />
         <option value="$PROJECT_DIR$/faguan.scss" />
@@ -214,7 +216,6 @@
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/state.js" />
-        <option value="$PROJECT_DIR$/shenfen.js" />
         <option value="$PROJECT_DIR$/vote.html" />
         <option value="$PROJECT_DIR$/task02.html" />
         <option value="$PROJECT_DIR$/task04-kill.scss" />
@@ -223,12 +224,14 @@
         <option value="$PROJECT_DIR$/faguan.js" />
         <option value="$PROJECT_DIR$/task04.scss" />
         <option value="$PROJECT_DIR$/end.scss" />
-        <option value="$PROJECT_DIR$/end.html" />
-        <option value="$PROJECT_DIR$/task04-kill.js" />
-        <option value="$PROJECT_DIR$/task04.html" />
         <option value="$PROJECT_DIR$/vote.js" />
-        <option value="$PROJECT_DIR$/task04.js" />
+        <option value="$PROJECT_DIR$/end.html" />
         <option value="$PROJECT_DIR$/end.js" />
+        <option value="$PROJECT_DIR$/shenfen.html" />
+        <option value="$PROJECT_DIR$/shenfen.js" />
+        <option value="$PROJECT_DIR$/task04.html" />
+        <option value="$PROJECT_DIR$/task04.js" />
+        <option value="$PROJECT_DIR$/task04-kill.js" />
       </list>
     </option>
   </component>
@@ -309,7 +312,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,6 +338,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,11 +421,12 @@
       <workItem from="1547712413120" duration="18877000" />
       <workItem from="1547776389248" duration="1709000" />
       <workItem from="1547780275882" duration="1566000" />
+      <workItem from="1547821370871" duration="1550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354571000" />
+    <option name="totallyTimeSpent" value="356121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,13 +584,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../2018-11-29-A-css08/2019.1.2-C-js01.html" />
-    <entry file="file://$PROJECT_DIR$/shenfen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task04-kill.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -615,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shenfen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="78" column="17" lean-forward="true" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task04-kill.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -629,40 +619,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/end.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1541">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task07.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="789">
           <caret line="46" column="77" lean-forward="true" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task04-kill.js">
+    <entry file="file://$PROJECT_DIR$/end.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+          <caret line="12" column="80" lean-forward="true" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task04.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="256" column="38" lean-forward="true" selection-start-line="256" selection-start-column="38" selection-end-line="256" selection-end-column="38" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#14#46#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vote.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
+        <state relative-caret-position="-14">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -671,45 +675,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task04.html">
+    <entry file="file://$PROJECT_DIR$/vote.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="283">
+          <caret line="113" column="56" lean-forward="true" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task04.js">
+    <entry file="file://$PROJECT_DIR$/shenfen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="237" column="35" lean-forward="true" selection-start-line="237" selection-start-column="35" selection-end-line="237" selection-end-column="35" />
-          <folding>
-            <element signature="e#14#46#0" />
-          </folding>
+        <state relative-caret-position="511">
+          <caret line="98" column="3" lean-forward="true" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/end.html">
+    <entry file="file://$PROJECT_DIR$/shenfen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="92">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/end.js">
+    <entry file="file://$PROJECT_DIR$/task04-kill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="1461">
+          <caret line="175" column="22" lean-forward="true" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

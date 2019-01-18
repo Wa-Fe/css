@@ -139,6 +139,10 @@ function run() {
             window.location='end.html';
             alert('平民获胜');
             break;
+        case a===b:
+            alert('游戏结束');
+            window.location='end.html';
+            break;
         default:
             window.location='task04.html';
             sessionStorage.removeItem('state');

@@ -88,3 +88,21 @@ function skip() {
         alert('继续在这里等着吧');
     }
 }
+//点击返回
+$("#leftphoto").click(function () {
+    var a=confirm("确定要返回吗？游戏将重新开始");
+    if (a===true){
+        window.location='task04.html';
+        localStorage.removeItem('key');
+        sessionStorage.clear();
+    }
+});
+//点击关闭
+$("#rightphoto").click(function () {
+    var a=confirm("确定要关闭吗？");
+    if (a===true){
+        window.location='task04.html';
+        localStorage.removeItem('key');
+        sessionStorage.clear();
+    }
+});

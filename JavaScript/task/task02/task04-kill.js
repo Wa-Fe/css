@@ -77,11 +77,21 @@ function add() {
 }
 //点击返回
 $("#leftphoto").click(function () {
-    confirm("确定要返回吗？")
+    var a=confirm("确定要返回吗？游戏将重新开始");
+    if (a===true){
+        window.location='task04.html';
+        localStorage.removeItem('key');
+        sessionStorage.clear();
+    }
 });
 //点击关闭
 $("#rightphoto").click(function () {
-    confirm("确定要关闭吗？")
+    var a=confirm("确定要关闭吗？");
+    if (a===true){
+        window.location='task04.html';
+        localStorage.removeItem('key');
+        sessionStorage.clear();
+    }
 });
 //点击选择杀人
 $(document).ready(function () {
@@ -124,31 +134,30 @@ $(document).ready(function () {
     $('#button').click(function () {
         console.log(all1);
 
+
         if (bbq === 0){
             alert('请选择对象')
         }
         //将杀人的信息保存到数组
 
         content();
-
+        sessionStorage.setItem('test',JSON.stringify(conte));
+        sessionStorage.setItem('all2',JSON.stringify(all1));
         switch (name1) {
             case '杀手':
                 alert('请重新选择');
                 break;
-            default:
-                window.location='task04.html';
-                break
         }
 
-
-        sessionStorage.setItem('test',JSON.stringify(conte));
-        sessionStorage.setItem('all2',JSON.stringify(all1));
+        // sessionStorage.setItem('test',JSON.stringify(conte));
+        // sessionStorage.setItem('all2',JSON.stringify(all1));
+        var all2=JSON.parse(sessionStorage.getItem("all2"));
         var a=0;
         var b=0;
-        for (var c=0;c<all4.length;c++){
-            if (all4[c] === '杀手'){
+        for (var c=0;c<all2.length;c++){
+            if (all2[c] === '杀手'){
                 a++
-            }else if (all4[c] === '平民'){
+            }else if (all2[c] === '平民'){
                 b++
             }
 
@@ -164,9 +173,15 @@ $(document).ready(function () {
                 window.location='end.html';
                 alert('平民获胜');
                 break;
+            case a === b:
+                alert('游戏结束');
+                window.location='end.html';
+                break;
+
+
             default:
                 window.location='task04.html';
-                sessionStorage.removeItem('state');
+                // sessionStorage.removeItem('state');
 
         }
 
