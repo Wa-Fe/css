@@ -175,7 +175,10 @@ $(document).ready(function () {
                 break;
             case a === b:
                 alert('游戏结束');
+                var all2=JSON.parse(sessionStorage.getItem("all2"));
+                sessionStorage.setItem('all4',JSON.stringify(all2));
                 window.location='end.html';
+
                 break;
 
 
