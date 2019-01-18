@@ -49,9 +49,6 @@ main{
 }
 .three-one{
   @extend .three-two;
-  span{
-    font-size: 1.3rem;
-  }
 }
 .three-two{
   padding: 0.5rem;

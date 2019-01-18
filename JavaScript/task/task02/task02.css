@@ -62,9 +62,6 @@ main {
   align-items: center;
   justify-content: center; }
 
-.three-one span {
-  font-size: 1.3rem; }
-
 .three-two, .three-one, .three-three {
   padding: 0.5rem; }
 

@@ -1,0 +1,68 @@
+@import "a";
+body{
+  height: 100%;
+  background-color: #29bde0;
+}
+.head{
+  background-color: #29bde0;
+  height: 10vh;
+  @include d-a-j-s;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  span{
+    font-size: 1.5rem;
+  }
+}
+.head-img-left{
+  margin-left: 2rem;
+}
+.head-img-right{
+  margin-right: 2rem;
+}
+//.main-box-one{
+//  background-color: #ffedc5;
+//  height: 60vh;
+//  margin: {
+//    left: 8rem;
+//    right: 8rem;
+//    top: 4rem;
+//  };
+//}
+.main-box-one{
+  @include d-j-c;
+}
+.main-box-two{
+  height: 60vh;
+  border: 2px solid #ffffff;
+  width: 80%;
+  margin-top: 4rem;
+  background: url("image/task03-jiaose.png") no-repeat #ffedc5;
+  background-position: 50%;
+  background-size: 50%;
+  @include d-j-c;
+}
+.circle{
+  margin-top: -1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #ffedc5;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  color: red;
+}
+footer{
+  padding: 1rem;
+}
+.foot{
+  color: #fff;
+  border: 0;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #fbb435;
+}

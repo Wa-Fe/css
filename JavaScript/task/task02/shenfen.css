@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  max-width: 780px;
+  min-width: 320px;
+  height: 100%; }
+
+html {
+  height: 100%;
+  background-color: #ffffff; }
+
+input[type="button"] {
+  outline: none; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100%;
+  background-color: #29bde0; }
+
+.head {
+  background-color: #29bde0;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff; }
+  .head span {
+    font-size: 1.5rem; }
+
+.head-img-left {
+  margin-left: 2rem; }
+
+.head-img-right {
+  margin-right: 2rem; }
+
+.main-box-one {
+  display: flex;
+  justify-content: center; }
+
+.main-box-two {
+  height: 60vh;
+  border: 2px solid #ffffff;
+  width: 18rem;
+  margin-top: 4rem;
+  background: url("image/task03-center.png") no-repeat #ffedc5;
+  background-position: 50%;
+  background-size: 50%;
+  display: flex;
+  justify-content: center; }
+
+.circle {
+  margin-top: -1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #ffedc5;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  color: red; }
+
+footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: center; }
+
+.foot {
+  color: #fff;
+  border: 0;
+  width: 19rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #fbb435; }
+
+main p {
+  position: relative;
+  text-align: center;
+  /* top: 50%; */
+  margin-top: -2rem;
+  height: 2rem;
+  color: #29bde0; }
+
+/*# sourceMappingURL=shenfen.css.map */

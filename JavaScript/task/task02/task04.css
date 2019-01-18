@@ -1,0 +1,167 @@
+body {
+  margin: 0 auto;
+  max-width: 780px;
+  min-width: 320px;
+  height: 100%; }
+
+html {
+  height: 100%;
+  background-color: #ffffff; }
+
+input[type="button"] {
+  outline: none; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100%;
+  background-color: #f0f0f0;
+  margin: 0 auto; }
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 780px;
+  min-width: 320px; }
+
+.head {
+  background-color: #29bde0;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff; }
+  .head span {
+    font-size: 1.5rem; }
+
+.head-img-left {
+  margin-left: 2rem; }
+
+.head-img-right {
+  margin-right: 2rem; }
+
+.box {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #dddddd;
+  background-color: #fff; }
+
+main {
+  position: fixed;
+  overflow: auto;
+  top: 10vh;
+  width: 100%;
+  max-width: 780px;
+  min-width: 320px;
+  /* width: 100%; */
+  bottom: 10vh; }
+
+.main-box p {
+  margin: 1rem;
+  border: 1px solid #dddddd;
+  line-height: 6vh;
+  text-align: center;
+  color: #29bde0;
+  background-color: #fff; }
+
+.main-box-two {
+  border-left: 1px solid #dddddd;
+  /* padding-left: 8rem; */
+  margin-left: 4rem;
+  margin-right: 1rem; }
+
+.box {
+  position: relative; }
+
+.box:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #ffffff;
+  border-width: 30px;
+  margin-left: -30px; }
+
+.box-two {
+  line-height: 2.5rem;
+  text-align: center;
+  background-color: #24a7c6;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  position: relative; }
+
+.sj-one, .sj-two, .sj-three, .sj-four {
+  margin-left: -20px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 40px solid #24a7c6;
+  border-bottom: 20px solid transparent;
+  position: absolute; }
+
+.photo-one:before {
+  content: '';
+  background: url("./image/task04-night.png") no-repeat 50% #ffffff;
+  position: absolute;
+  background-size: 35px 35px;
+  width: 35px;
+  height: 35px;
+  left: -4.2rem;
+  border-radius: 50%; }
+
+.photo-two:before {
+  content: '';
+  background: url("./image/task04-light.png") no-repeat 50% #ffffff;
+  position: absolute;
+  background-size: 35px 35px;
+  width: 35px;
+  height: 35px;
+  left: -4.2rem;
+  border-radius: 50%; }
+
+footer {
+  max-width: 780px;
+  min-width: 320px;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #79d4f2; }
+
+.foot {
+  padding-top: 1vh;
+  padding-left: 2rem;
+  padding-right: 3rem; }
+  .foot span {
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    width: 45%;
+    line-height: 8vh;
+    background-color: #fbb435; }
+
+.foot-left {
+  float: left; }
+
+.foot-right {
+  float: right; }
+
+.test1, .test2 {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center; }
+
+.txt-one {
+  text-align: center; }
+
+/*# sourceMappingURL=task04.css.map */

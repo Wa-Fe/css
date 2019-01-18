@@ -1,0 +1,168 @@
+@import "a";
+
+.top{
+  height: 10vh;
+  width: 100%;
+  background-color: #29bde0;
+  @include d-a-j-s;
+  @include bottom-line;
+  @include max;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  img{
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+}
+.main-one{
+  height: 10vh;
+  border-bottom: 1px solid #29bde0;
+}
+.center{
+  height: 60vh;
+  background-color: #29bde0;
+}
+.center-image{
+  height: 24vh;
+  color: #ffffff;
+  font-size: 1.2rem;
+  @include d-a-j-c;
+  img{
+    width: 30vh;
+    height: 22vh;
+    position: relative;
+  }
+  span{
+    position: absolute;
+    top: 26.5vh;
+  }
+}
+.center-txt{
+  width: 80%;
+  height: 15vh;
+  color: #F9A629;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1rem;
+  p{
+    margin: 0;
+  }
+}
+.center-txt-one{
+  padding-left: 10%;
+  color: #ffffff;
+  font-size: 0.9rem;
+  margin-top: 2vh;
+  p{
+    margin: 0;
+  }
+}
+.bottom-txt-three{
+  height: 15vh;
+}
+.test-one{
+  line-height: 2rem;
+}
+.test-two{
+  @extend  .test-one;
+}
+.test-three{
+  @extend  .test-one;
+}
+.bottom-txt{
+  border-bottom: 1px solid #dddddd;
+  padding-left: 10%;
+}
+.bg{
+  background-color: #f0f4f7;
+}
+.txt-one{
+  height: 5vh;
+  display: flex;
+}
+.bottom-txt-one{
+  padding-left: 10%;
+  padding-top: 10px;
+  flex-grow: 1;
+}
+.bottom-txt-two{
+  flex-grow: 1;
+  padding-right: 10%;
+  color: #979797;
+  font-size: 5px;
+  padding-top: 15px;
+  text-align: right;
+}
+.txt-two{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1rem;
+  color: #B4B4B4;
+  margin-top: 10px;
+  p{
+    margin: 0;
+  }
+}
+.foot{
+  @include max;
+  height: 10vh;
+  background-color:rgba(137,216,235,0.5);
+  padding-top: 3vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.foot-one{
+  height: 8vh;
+  background-color: #F0575B;
+  float: left;
+  width: 37%;
+  margin-left: 10%;
+  line-height: 8vh;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 19px;
+  a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+  }
+}
+.foot-two{
+  height: 8vh;
+  margin-right: 10%;
+  float: right;
+  width: 37%;
+  background-color: #F9A629;
+  line-height:8vh;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
