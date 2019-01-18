@@ -182,9 +182,9 @@ function oneday() {
     }
     console.log(x);
     // 存储杀手杀人的信息
-    z[x-1].daytime=('白天：'+test1);
+    z[x-1].daytime=('黑夜：'+test1);
     // sessionStorage.setItem('number',JSON.stringify(z));
-    z[x-1].night=('黑夜：'+death1);
+    z[x-1].night=('白天：'+death1);
 
     sessionStorage.setItem('number',JSON.stringify(z));
     // addtime();

@@ -86,6 +86,10 @@ function skip() {
         sessionStorage.removeItem('all4');
         sessionStorage.removeItem('clickcount');
         sessionStorage.removeItem('number');
+        sessionStorage.removeItem('state');
+        sessionStorage.removeItem('test');
+        sessionStorage.removeItem('death');
+
 
     } else {
         alert('继续在这里等着吧');
