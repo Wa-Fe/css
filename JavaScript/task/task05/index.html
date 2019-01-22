@@ -5,6 +5,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="stylesheet" href="task05.css">
 </head>
 
@@ -17,14 +18,14 @@
                 <p class="txt-one">后台登陆</p>
                 <div class="txt-login">
                     <img src="./image/people.png">
-                    <input type='text' onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');"  maxlength="11" id="login"/>
+                    <input type='text'  maxlength="11" id="login"/>
                 </div>
                 <div class="txt-password">
                         <img src="./image/lock.png">
                         <input type="password" maxlength="20"  id="password">
                     </div>
                     <div class="button">
-                    <button onclick="start()">登陆</button>
+                    <button  id="btn" onclick="start()">登陆</button>
                 </div>
             </div>
         </div>
