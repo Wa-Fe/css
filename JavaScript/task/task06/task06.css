@@ -1,0 +1,198 @@
+
+body{
+    margin: 0;
+}
+p{
+margin: 0;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    line-height: 6rem;
+
+}
+
+.box{
+    background: url("./image/123.jpeg") no-repeat center 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.from{
+    background-color: #dddddd;
+    margin-top: 10rem;
+    width: 20rem;
+    height: 16rem;
+}
+.mes{
+    height: 2rem;
+}
+.form-group{
+    margin-bottom: 0;
+}
+.txt{
+    text-align: center;
+}
+.box-one{
+    display: flex;
+    align-items: center;
+}
+.login-photo{
+    width: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.background-main{
+    width: 100%;
+}
+
+.left{
+    width: 200px;
+    background-color: #23323c;
+    color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+.right{
+    /*background-color: #dddddd;*/
+    background-color: #F2F2F2;
+    margin-left: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.two-left{
+    background-color: #23323c;
+}
+.background-main-one{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.main-one{
+    display: -webkit-box;
+    margin-top: 3rem;
+}
+.hit{
+    background-color: #23323c;
+    border: 0;
+    outline: none;
+}
+.background-header{
+    height: 6rem;
+}
+.panel-body{
+    background-color: #23323c;
+    border: 0;
+    text-align: center;
+}
+.panel-default>.panel-heading {
+    color: #ffffff;
+    background-color: #23323c;
+    border-color: #ddd;
+}
+.panel{
+    border: 0;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #23323c;
+}
+.panel-title>a{
+    text-decoration: none;
+}
+a{
+    color: #ffffff;
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.background-txt-one>a:focus{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+}
+.partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+}
+.DropdownCtrl-btn{
+    width: 15rem;
+    background-color: #ffffff;
+    border: 1px solid #B5B5B5;
+}
+.page2-box{
+    display: flex;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    padding: 20px;
+}
+.page2-box-one{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.page2-box-two{
+    padding-left: 2rem;
+    width: 20rem;
+}
+.page2-box-three{
+    display: flex;
+}
+.page2-box-four{
+    padding-left: 2rem;
+}
+.dropdown-menu{
+    margin-left: 2rem;
+    width: 15rem;
+    text-align: center;
+}
+.page2-box-five{
+    border: 1px solid #B5B5B5;
+    border-radius: 5px;
+}
+.page2-box-six{
+    padding-bottom: 20px;
+}
+.box-seven{
+    margin-top: 2rem;
+    border: 1px solid #B5B5B5;
+    border-radius: 5px;
+}
+.box-txt-one{
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 5rem;
+    background-color: #dddddd;
+}
+.table-menu{
+    padding-left: 30px;
+}
+.five-btn{
+    height: 4rem;
+    padding-right: 20px;
+}
+.pagination{
+    float: right !important;
+}
+.five-btn-one{
+    padding: 0;
+}

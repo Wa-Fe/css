@@ -1,0 +1,59 @@
+body{
+    background-color: #dddddd !important;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+.row{
+    height: 100%;
+}
+
+.container{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    height: 100%;
+}
+.left{
+    background-color: #23323c;
+    height: 100%;
+}
+
+.right{
+}
+h3{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.btn{
+    color: #ffffff;
+    border: 0 !important;
+    background-color: #23323c;
+    outline: none !important;
+    width: 100%;
+    text-align: left;
+}
+.btn:hover{
+    color: white !important;
+}
+.btn:focus{
+    color: #ffffff;
+    outline: none !important;
+    border: 0 !important;
+    box-shadow:none;
+}
+#txt-one{
+    color: white;
+    text-align: center;
+}
+#txt-two{
+    color: white;
+    text-align: center;
+}
+.glyphicon-chevron-left{
+    float: right;
+}
+.glyphicon-chevron-down{
+    float: right;
+}

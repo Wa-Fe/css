@@ -1,0 +1,39 @@
+
+    <div class="box">
+
+        <div class="from" ng-controller="myCtrl">
+            <form name="myForm">
+                <p class="txt">登陆</p>
+                <div class="form-group">
+                        <div ng-class="{'has-error':myForm.name.$invalid && (myForm.name.$touched || !myForm.name.$pristine)}">
+                            <input class="form-control" type="text" placeholder="请输入帐号" name="name" ng-model="user.name" ng-minlength="3" ng-maxlength="9" required id="login">
+                        </div>
+                        <div class="mes">
+                            <div ng-if="!myForm.name.$pristine || myForm.name.$touched" ng-messages="myForm.name.$error" role="alert" id="pwd">
+                                <div ng-message="minlength">至少3位</div>
+                                <div ng-message="maxlength">最多9位</div>
+                                <div ng-message="required">不能为空</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                <div class="form-group">
+                    <div ng-class="{'has-error':myForm.password.$invalid && (myForm.password.$touched || !myForm.password.$pristine)}">
+                        <input class="form-control" type="password" placeholder="请输入密码" name="password" ng-model="user.password" ng-minlength="6" ng-maxlength="16" required>
+                    </div>
+                    <div class="mes">
+                        <div ng-if="!myForm.password.$pristine || myForm.password.$touched" ng-messages="myForm.password.$error" role="alert">
+                        <div ng-message="minlength">至少6位</div>
+                        <div ng-message="maxlength">最多16位</div>
+                        <div ng-message="required">不能为空</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <input class="btn btn-success" type="submit" value="提交" ng-disabled="myForm.$invalid" ng-click="point()" >
+                </div>
+
+            </form>
+        </div>
+    </div>

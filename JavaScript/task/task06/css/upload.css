@@ -1,0 +1,57 @@
+.upload-box-one{
+    border: 1px solid #B5B5B5;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5rem;
+}
+.box-four{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.my-drop-zone { border: dotted 3px lightgray; }
+.nv-file-over { border: dotted 3px red; } /* Default class applied to drop zones on over */
+.another-file-over-class { border: dotted 3px green; }
+
+canvas {
+    background-color: #f3f3f3;
+    -webkit-box-shadow: 3px 3px 3px 0 #e3e3e3;
+    -moz-box-shadow: 3px 3px 3px 0 #e3e3e3;
+    box-shadow: 3px 3px 3px 0 #e3e3e3;
+    border: 1px solid #c3c3c3;
+    height: 100px;
+    margin: 6px 0 0 6px;
+}
+.main-table{
+    margin-left: 30px;
+}
+.label-file-one{
+    opacity: 0;
+    width: 7rem;
+}
+.label-file{
+    width: 7rem;
+    height: 25px;
+    background-color: #337ab7;
+    margin-left: 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+
+
+}
+.file-txt{
+    line-height: 25px;
+}
+.toolbar {
+    border: 1px solid #ccc;
+    width: 57rem;
+}
+.text {
+    border: 1px solid #ccc;
+    height: 300px;
+    width: 57rem;
+    background-color: #ffffff;
+
+
+}

@@ -1,0 +1,110 @@
+<div ng-controller="serach">
+<!--上面检索部分-->
+    <div class="page2-box-five" >
+        <div class="row page2-box">
+            <div  class="page2-box-three">
+                <div class=" page2-box-one">
+                    <span>发布时间</span>
+                    <p class="input-group page2-box-two">
+                        <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="timeOne"
+                               is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" />
+                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-default" ng-click="open1()">
+                                                <i class="glyphicon glyphicon-calendar"></i></button>
+                                          </span>
+                    </p>
+                </div>
+                <div class=" page2-box-one">
+                    <span>-</span>
+                    <p class="input-group page2-box-two">
+                        <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="timeTwo" is-open="popup2.opened"
+                               datepicker-options="dateOptions" ng-required="true" close-text="Close"/>
+                        <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default" ng-click="open2()">
+                                            <i class="glyphicon glyphicon-calendar"></i></button>
+                                      </span>
+                    </p>
+                </div>
+                <!--<div class="row">-->
+                    <!--<div class="col-md-6">-->
+                        <!--<label>Format: <span class="muted-text">(manual alternate <em>{{altInputFormats[0]}}</em>)</span></label> <select class="form-control" ng-model="format" ng-options="f for f in formats"><option></option></select>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            <div class="page2-box-four">
+                <div style="display: flex;align-items: center">
+                    <span>&nbsp;类 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;别</span>
+                    <select class="form-control" ng-model="selectedSiteOne" ng-options="x.id as x.name for x in sitesOne"
+                            style="width: 15rem;margin-left: 2rem">
+                        <option value="">全部</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="page2-box-four page2-box-six">
+            <div style="display: flex;align-items: center">
+                <span>&nbsp;状 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;态</span>
+                <select class="form-control" ng-model="selectedSite"  ng-options="x.id as x.name for x in sites"
+                        style="width: 15rem;margin-left: 2rem">
+                    <option  value="" >全部</option>
+                </select>
+
+            </div>
+
+            <div class="five-btn">
+                <button type="button" class="btn  btn-success" style="float: right;margin-right: 10px" ng-click="search()">搜索</button>
+                <button type="button" class="btn   btn-danger" style="float: right;margin-right: 10px" ng-click="reset()">清空</button>
+
+
+            </div>
+        </div>
+    </div>
+    <!--中间列表部分-->
+    <div class="box-seven" >
+        <div>
+            <h4 class="box-txt-one">Article列表
+                <button type="button" class="btn btn-success" ui-sref="background.upload" style="float: right;margin:1rem">+新增
+                </button></h4>
+
+        </div>
+        <div class="table-menu">
+            <table class="table table-striped ">
+                <thead class="table-menu">
+                <tr>
+                    <th class="text-center">ID</th>
+                    <th class="text-center">名称</th>
+                    <th class="text-center">类型</th>
+                    <th class="text-center">发布时间</th>
+                    <th class="text-center">修改时间</th>
+                    <th class="text-center">发布者</th>
+                    <th class="text-center">状态</th>
+                    <th class="text-center">操作</th>
+                </tr>
+                <tbody>
+                    <tr ng-repeat="x in text">
+                        <td class="text-center">{{ $index + 1 }}</td>
+                        <td class="text-center">{{x.title}}</td>
+                        <td class="text-center">{{x.type | txt}}</td>
+                        <td class="text-center">{{x.createAt | date: 'yyyy-MM-dd HH:mm:ss'}}</td>
+                        <td class="text-center">{{x.updateAt | date: 'yyyy-MM-dd HH:mm:ss'}}</td>
+                        <td class="text-center">{{x.author}}</td>
+                        <td class="text-center">{{x.status | toStatus}}</td>
+                        <td class="text-center">
+                            <button type="button" class="btn five-btn-one btn-link">下线</button>
+                            <button type="button" class="btn five-btn-one btn-link">编辑</button>
+                            <button type="button" class="btn five-btn-one btn-link">删除</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <ul uib-pagination boundary-links="true"  total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;" ng-click="change(currentPage)"></ul>
+    </div>
+</div>
+
+
+
